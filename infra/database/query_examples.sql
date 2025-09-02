@@ -1,6 +1,5 @@
--- Copyright 2025 OS-Climate
+-- Original Work: Copyright 2025 OS-Climate
 -- Modifications Copyright 2025 Nicholas Kellett
-
 
 -- Licensed under the Apache License, Version 2.0 (the "License");
 -- you may not use this file except in compliance with the License.
