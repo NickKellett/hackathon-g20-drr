@@ -1,45 +1,43 @@
-import { defineCollection, z } from "astro:content"
+import { defineCollection, z } from 'astro:content'
 
-const work = defineCollection({
-  type: "content",
+const pages = defineCollection({
   schema: z.object({
-    company: z.string(),
-    role: z.string(),
-    dateStart: z.coerce.date(),
-    dateEnd: z.union([z.coerce.date(), z.string()]),
+    title: z.string(),
+    description: z.string().optional(),
+    image: z
+      .object({
+        src: z.string(),
+        alt: z.string(),
+      })
+      .optional(),
   }),
 })
 
 const blog = defineCollection({
-  type: "content",
   schema: z.object({
     title: z.string(),
-    summary: z.string(),
-    date: z.coerce.date(),
-    tags: z.array(z.string()),
-    draft: z.boolean().optional(),
+    description: z.string().optional(),
+    duration: z.string().optional(),
+    image: z
+      .object({
+        src: z.string(),
+        alt: z.string(),
+      })
+      .optional(),
+    date: z
+      .string()
+      .or(z.date())
+      .transform((val: string | number | Date) => new Date(val).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+      })),
+    draft: z.boolean().default(false).optional(),
+    lang: z.string().default('en-US').optional(),
+    tag: z.string().optional().optional(),
+    redirect: z.string().optional(),
+    video: z.boolean().default(false).optional(),
   }),
 })
 
-const projects = defineCollection({
-  type: "content",
-  schema: z.object({
-    title: z.string(),
-    summary: z.string(),
-    date: z.coerce.date(),
-    tags: z.array(z.string()),
-    draft: z.boolean().optional(),
-    demoUrl: z.string().optional(),
-    repoUrl: z.string().optional(),
-  }),
-})
-
-const legal = defineCollection({
-  type: "content",
-  schema: z.object({
-    title: z.string(),
-    date: z.coerce.date(),
-  }),
-})
-
-export const collections = { work, blog, projects, legal }
+export const collections = { pages, blog }

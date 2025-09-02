@@ -1,20 +1,19 @@
-export type Page = {
-  TITLE: string
-  DESCRIPTION: string
-}
+import type { CollectionEntry } from 'astro:content'
 
-export interface Site extends Page {
-  AUTHOR: string
-}
+export type PostKey = 'blog'
 
-export type Links = {
-  TEXT: string
-  HREF: string
-}[]
+export type CollectionPosts = CollectionEntry<PostKey>
 
-export type Socials = {
-  NAME: string
-  ICON: string
-  TEXT: string
-  HREF: string
-}[]
+export type Pages = 'pages'
+
+export type CollectionPages = CollectionEntry<Pages>
+
+export type ProjectData = Array<{
+  title: string
+  projects: Array<{
+    text: string
+    description?: string
+    icon?: string
+    href: string
+  }>
+}>

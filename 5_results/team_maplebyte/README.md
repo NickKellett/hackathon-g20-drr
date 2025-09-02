@@ -1,89 +1,111 @@
-![Astro Sphere Lighthouse Score](_astrosphere.jpg)
+# Vitesse theme for Astro
 
-Astro Sphere is a static, minimalist, lightweight, lightning fast portfolio and blog theme based on my personal website.
+A minimal, SEO-friendly portfolio and blog theme for Astro, supports Vue and UnoCSS.
 
-It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0624323a-339f-48da-8b28-03037d664c40/deploy-status)](https://app.netlify.com/sites/astro-theme-vitesse/deploys)
 
-## 🚀 Deploy your own
+## Preview
 
-[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere)  [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-sphere)
+![Preview Image](./public/preview.jpg)
 
-## 📋 Features
+## Features
 
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-- ✅ Searchable content (posts and projects)
-- ✅ Code Blocks - copy to clipboard
+- 100 / 100 Lighthouse performance.
+- Responsive.
+- SEO-friendly.
+- Light / Dark Theme.
+- Markdown support.
+- <a target="_blank" href="https://mdxjs.com/">MDX</a> (components in your markdown) support.
+- <a target="_blank" href="https://vuejs.org/">Vue</a> SFC component support.
+- Auto generated sitemap and RSS Feed <a target="_blank" href="https://vueuse.org/">VueUse</a> & <a target="_blank" href="https://lodash.com/">Lodash</a> support.
+- Use the <a target="_blank" href="https://unocss.dev/">UnoCSS</a> for style, it's fast.
 
-## 💯 Lighthouse score
-![Astro Sphere Lighthouse Score](_lighthouse.png)
+## Lighthouse Performance
 
-## 🕊️ Lightweight
-All pages under 100kb (including fonts)
+![Lighthouse Performance Image](./public/lighthouse.jpg)
 
-## ⚡︎ Fast
-Rendered in ~40ms on localhost
+## Quick Start
 
-## 📄 Configuration
+[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kieranwv/astro-theme-vitesse)
 
-The blog posts on the demo serve as the documentation and configuration.
+Click this button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
 
-## 💻 Commands
+If you  just want to develop locally, you can [create a repo](https://github.com/kieranwv/astro-theme-vitesse/generate) from this template on GitHub.
 
-All commands are run from the root of the project, from a terminal:
+## Usage
 
-Replace npm with your package manager of choice. `npm`, `pnpm`, `yarn`, `bun`, etc
+First, install the dependencies.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run dev:network`     | Starts dev server on local network               |
-| `npm run sync`            | Generates TypeScript types for all Astro modules.|
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run preview:network` | Starts preview server on local network           |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-| `npm run lint`            | Run ESLint                                       |
-| `npm run lint:fix`        | Auto-fix ESLint issues                           |
+```bash
+npm install
+```
 
-## 🗺️ Roadmap
+Just run and visit http://localhost:1977.
 
-A few features I plan to implement
-- ⬜ Article Pages - Table of Contents
-- ⬜ Article Pages - Share on social media
+```bash
+npm run dev
+```
 
-## ✨ Acknowledgement
+> Node.js version 18 or higher is required for this project.
 
-Theme inspired by [Paco Coursey](https://paco.me/), [Lee Robinson](https://leerob.io/) and [Hayden Bleasel](https://www.haydenbleasel.com/)
+To build the App, you can run:
 
+```bash
+npm run build
+```
 
-## 🏛️ License
+You will then see the `dist` folder generated for publishing, which you can preview locally with the following command.
 
-MIT
+```bash
+npm run preview
+```
 
+## Use pnpm / yarn
 
-# 1.0.1 Update
+If you want to use pnpm or yarn as a package management tool, please refer to the following steps.
 
-Added ability to run dev and preview on local network.
-added npm run dev:network
-added npm run preview:network
+> If `preinstall` exists in `scripts`, remove it first.
 
-Added slightly more particle density in both light and dark mode.
+### pnpm
 
-Added subtle dark mode star and meteor animations.
+Replace `"pre-commit": "npx lint-staged"` in package.json with `"pre-commit": "pnpm lint-staged"`.
 
-Removed eslint config
+And replace `"*": "npm run lint:fix"` with `"*": "pnpm lint:fix"`.
 
+Like this:
+
+```json
+{
+  // ...
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "pnpm lint:fix"
+  }
+}
+```
+
+### yarn
+
+Replace `"pre-commit": "npx lint-staged"` in package.json with `"pre-commit": "yarn lint-staged"`.
+
+And replace `"*": "npm run lint:fix"` with `"*": "yarn lint:fix"`.
+
+Like this:
+
+```json
+{
+  // ...
+  "simple-git-hooks": {
+    "pre-commit": "yarn lint-staged"
+  },
+  "lint-staged": {
+    "*": "yarn lint:fix"
+  }
+}
+```
+
+## License
+
+[MIT License](./LICENSE) © 2024 [Kieran Wang](https://github.com/kieranwv/)
