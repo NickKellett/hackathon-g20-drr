@@ -1,5 +1,5 @@
 ---
-title: Stream 1 - Settlement Detection
+title: Stream 1 Settlement Detection - Hackathon Activity Log
 description: Settlement Detection process, tools, outputs, and the challenges and issues we faced in this workstream.
 duration: 5min
 date: 2025-09-02
@@ -20,14 +20,9 @@ We found a workaround for missing labels for 2025, I calculate the ENDISI direct
 
 - We create also difference maps between each year to see where the growth happened but we don't think that total urban area information will be useful for the entire AOI, more accurate will be local data for a specific area.
 
-- Jupyter notebook using modified GeoMAD algorithm.
+- Using Jupyter notebook with modified GeoMAD algorithm.
+
+- Change Map output: 1 = unban growth; 0 = changes, -1 = urban decline
 
 ## Results
-- GeoTIFF Geomedian comparison Year over Year:
-<p>
-      <img src="/AOI settlement change detection GeoTiff on Jupyter Notebook on Digital Earth Africa.jpg" alt="AOI settlement change detection GeoTiff on Jupyter Notebook on Digital Earth Africa" />
-</p>
-- Urban Change Detection Overlays Year over Year:
-<p>
-      <img src="/AOI settlement change detection on Jupyter Notebook on Digital Earth Africa.jpg" alt="AOI settlement change detection on Jupyter Notebook on Digital Earth Africa" />
-</p>
+- View the [Settlement Detection results](/posts/1/detection-results).

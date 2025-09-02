@@ -1,5 +1,5 @@
 ---
-title: Stream 3 - Flood Risk Prediction
+title: Stream 3 Flood Risk Prediction - Hackathon Activity Log
 description: Flood risk predictions for identified or predicted settlements. Describes the process, tools, outputs, and the challenges and issues we faced in this workstream.
 duration: 5min
 date: 2025-09-02
@@ -21,3 +21,6 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
     - then finally a HAND raster. this can be linked to river gauge readings to estimate flood based on terrain.
 - Scripting
     - creating local python script which can be read into a notebook
+
+## Results
+- View the [Flood Risk results](/posts/3/flood-risk-results).

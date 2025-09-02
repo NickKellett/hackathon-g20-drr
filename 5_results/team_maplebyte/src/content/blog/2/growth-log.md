@@ -1,5 +1,5 @@
 ---
-title: Stream 2 - Settlement Growth Prediction
+title: Stream 2 Settlement Growth Prediction - Hackathon Activity Log
 description: Settlement Growth prediction process, tools, outputs, and the challenges and issues we faced in this workstream.
 duration: 5min
 date: 2025-09-02
@@ -9,3 +9,6 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
 
 ## Approach
 - What we did
+
+## Results
+- View the [Settlement Growth Prediction results](/posts/2/growth-results).
