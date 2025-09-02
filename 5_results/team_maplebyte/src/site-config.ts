@@ -23,6 +23,10 @@ export const siteConfig = {
     },
     navLinks: [
       {
+        text: 'Home',
+        href: '/',
+      },
+      {
         text: '0_Overall_Results',
         href: '/blog/0',
       },
