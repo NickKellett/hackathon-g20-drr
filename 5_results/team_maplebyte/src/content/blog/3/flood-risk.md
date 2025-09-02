@@ -5,6 +5,10 @@ duration: 5min
 date: 2025-09-02
 ---
 
+## Workstream Goal
+Risk Classification – Overlay forecasts with flood hazard maps using imagery and algorithms from [Digital Earth Africa](https://digitalearthafrica.org/en_za/).
+
+## Approach
 - Exploring DSM & DTM:
     - Digital Surface Model: ESA Copernicus glo 30 (this is technically a surface model,not terrain model)
     - Digital Terrain Model: [DeltaDTM v1.1](https://data.4tu.nl/datasets/1da2e70f-6c4d-4b03-86bd-b53e789cc629)

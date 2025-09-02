@@ -32,3 +32,7 @@ We needed to pick an Area of Interest that a) had visible settlement growth over
 So we did some secondary research online and found a comprehensive article "A Perfect Storm" in The Outlier, written by Leonie Joubert with additional research and writing by Laura Grant, Gemma Ritchie and Gemma Gatticchi and support from Internews' [Earth Journalism Network](https://earthjournalism.net/).  
 > "As the planet heats up, climate disasters will hit coastal cities with greater force. > Durban’s recovery from the April 2022 floods highlights the uncertainties such cities face and gives insight into how they can prepare for a sustainable and resilient future." 
 [A Perfect Storm](https://perfectstorm.theoutlier.co.za/)
+
+<p>
+      <img width="640" height="360" src="/AOI shown on Jupyter Notebook on Digital Earth Africa.jpg" alt="Quarry Road AOI shown on Jupyter Notebook on Digital Earth Africa" />
+</p>

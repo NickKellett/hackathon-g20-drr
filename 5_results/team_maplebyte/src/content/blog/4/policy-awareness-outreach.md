@@ -1,8 +1,16 @@
 ---
-title: Stream 4 - Policy as well as awareness and outreach for risks, adaptation and resilience
+title: Stream 4 - Policy, Awareness & Outreach
 description: Discusses the policies, process, tools, outputs, and the challenges and issues we faced in this workstream.
 duration: 5min
 date: 2025-09-02
 ---
 
-What we did [Vitesse Them for Astro](https://astro.build/themes/details/vitesse-theme-for-astro/) to start writing your blog posts.
+## Workstream Goal
+Apply policy-relevant reporting and guidance, awareness and outreach including early warning system information, disaster risk reduction, adaptation and resilience to relevant stakeholders including policy makers, public safety, and settlement community members.
+
+## Approach
+- Identify stakeholder audiences
+- Create websites for each primary stakeholder audience
+- Select static web publishing templates which offer simple authoring tools to focus efforts on communication messages rather than flashy appearance
+- Sample multilingual content, since Durban is the AOI supported several languages including English, Afrikaans, Zulu.
+- Use AI translation engine to sample translate content into non-English languages

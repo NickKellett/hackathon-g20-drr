@@ -18,7 +18,7 @@ export const siteConfig = {
   ],
   header: {
     logo: {
-      src: '/favicon.svg',
+      src: '/favicon.png',
       alt: 'Logo Image',
     },
     navLinks: [
