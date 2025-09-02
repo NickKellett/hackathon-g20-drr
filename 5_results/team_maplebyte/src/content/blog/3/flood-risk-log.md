@@ -16,9 +16,11 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
     
 - Modelling:
     - working to create hand model, which can be useful with riverine flooding (not necessarily coastal flooding or flash floods). [HAND](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjb3MOqzrqPAxXN1skDHZ8jK2gQFnoECB0QAQ&url=https%3A%2F%2Fnhess.copernicus.org%2Fpreprints%2Fnhess-2019-82%2Fnhess-2019-82-AR1.pdf&usg=AOvVaw3LAo4oXDR0-X02TveEjatj&opi=89978449)
-    - starting with hydro condition of models: filling pits to make sure flow doesn't just pool falsely, breaching, etc. to create hydro conditioned dtm.
-    - then compute streams from dtm and select only mainstem streams. 
+    - starting with hydro condition of models: filling pits to make sure flow doesn't just pool falsely, breaching, etc. to create hydro conditioned DTM.
+    - then compute streams from DTM and select only mainstem streams. 
     - then finally a HAND raster. this can be linked to river gauge readings to estimate flood based on terrain.
+    - getting building footprints from [HOTOSM](https://data.humdata.org/dataset/hotosm_zaf_buildings). Doesn't have attributes we want, looking for category (single family house, residential...and maybe height), so will keep looking for alternatives.
+
 - Scripting
     - creating local python script which can be read into a notebook
 
