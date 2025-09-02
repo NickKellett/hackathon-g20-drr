@@ -80,7 +80,11 @@ export const siteConfig = {
       },
       {
         text: 'View online',
-        href: 'https://astro.build/themes/details/vitesse-theme-for-astro/',
+        href: 'https://g20hack-maplebyte.climatechange.ca/',
+      },
+      {
+        text: 'MapleByte GitHub Repository',
+        href: 'https://github.com/NickKellett/hackathon-g20-drr',
       },
       {
         text: 'Astro Theme GitHub Repository',
