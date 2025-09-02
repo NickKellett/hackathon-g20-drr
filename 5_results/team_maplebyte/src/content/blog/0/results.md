@@ -1,5 +1,5 @@
 ---
-title: Results
+title: Our Team Results
 description: The final output our team produced.
 duration: 5min
 date: 2025-09-01
@@ -14,4 +14,4 @@ date: 2025-09-01
 
 ## Related reading
 - View the [G20 DRR Hackathon Background](/posts/0/hackathon-background).
-- View the [Team Hackathon Approach](/posts/0/hackathon-approach).
+- View the [Our Team Hackathon Approach](/posts/0/hackathon-approach).
