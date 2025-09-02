@@ -12,6 +12,6 @@ date: 2025-09-01
 - View the [Policy Awareness & Outreach results](/posts/4/policy-awareness-outreach-results).
 
 
-## Related
-- View the [Hackathon Background](/posts/0/hackathon-background).
-- View the [Hackathon Approach](/posts/0/hackathon-approach).
+## Related reading
+- View the [G20 DRR Hackathon Background](/posts/0/hackathon-background).
+- View the [Team Hackathon Approach](/posts/0/hackathon-approach).

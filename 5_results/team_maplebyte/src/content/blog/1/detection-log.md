@@ -24,5 +24,5 @@ We found a workaround for missing labels for 2025, I calculate the ENDISI direct
 
 - Change Map output: 1 = unban growth; 0 = changes, -1 = urban decline
 
-## Results
+## Related reading
 - View the [Settlement Detection results](/posts/1/detection-results).

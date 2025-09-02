@@ -20,5 +20,5 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
     - Use that to generate forecasts for 2026–2028.
     - This way our projections are more stable and reliable for overlaying with the flood risk maps.
 
-## Results
+## Related reading
 - View the [Settlement Growth Prediction results](/posts/2/growth-results).

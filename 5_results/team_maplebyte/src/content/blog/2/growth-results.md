@@ -10,5 +10,5 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
 
 ## Results
 
-## Related
+## Related reading
 - View the [Settlement Growth Hackathon Activity Log](/posts/2/growth-log).

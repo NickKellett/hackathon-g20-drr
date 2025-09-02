@@ -10,5 +10,5 @@ Apply policy-relevant reporting and guidance, awareness and outreach including e
 
 ## Results
 
-## Related
+## Related reading
 - View the [Policy, Awareness & Outreach Hackathon Activity Log](/posts/4/policy-awareness-outreach-log).

@@ -15,5 +15,5 @@ Apply policy-relevant reporting and guidance, awareness and outreach including e
 - Sample multilingual content, since Durban is the AOI supported several languages including English, Afrikaans, Zulu.
 - Use AI translation engine to sample translate content into non-English languages
 
-## Results
+## Related reading
 - View the [Policy Awareness & Outreach results](/posts/4/policy-awareness-outreach-results).

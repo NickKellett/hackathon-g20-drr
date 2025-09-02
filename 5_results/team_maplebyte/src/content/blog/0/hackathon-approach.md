@@ -24,6 +24,6 @@ So we did some secondary research online and found a comprehensive article "A Pe
 </p>
 
 
-## Related
-- View the [Hackathon Background](/posts/0/hackathon-background).
-- View the [Hackathon Results](/posts/0/results).
+## Related reading
+- View the [G20 DRR Hackathon Background](/posts/0/hackathon-background).
+- View the [Team Hackathon Results](/posts/0/results).

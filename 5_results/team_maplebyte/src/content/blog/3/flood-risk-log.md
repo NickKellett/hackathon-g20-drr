@@ -24,5 +24,5 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
 - Scripting
     - creating local python script which can be read into a notebook
 
-## Results
+## Related reading
 - View the [Flood Risk results](/posts/3/flood-risk-results).
