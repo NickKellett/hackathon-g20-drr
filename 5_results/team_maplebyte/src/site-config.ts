@@ -71,19 +71,11 @@ export const siteConfig = {
   footer: {
     navLinks: [
       {
-        text: 'Posts Props',
-        href: '/posts-props',
-      },
-      {
-        text: 'Markdown Style',
-        href: '/md-style',
-      },
-      {
         text: 'View online',
         href: 'https://g20hack-maplebyte.climatechange.ca/',
       },
       {
-        text: 'MapleByte GitHub Repository',
+        text: 'Team MapleByte G20 DRR Hackathon GitHub Repository',
         href: 'https://github.com/NickKellett/hackathon-g20-drr',
       },
       {
