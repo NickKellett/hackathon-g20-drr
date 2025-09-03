@@ -1,0 +1,35 @@
+---
+import type { Props } from "@astrojs/starlight/props";
+import Default from "@astrojs/starlight/components/Head.astro";
+import type { Article, WithContext } from "schema-dts";
+
+const { title, description } = Astro.props.entry.data;
+
+const articleSchema: WithContext<Article> = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description: description,
+    url: Astro.url.href,
+    author: {
+      "@type": "Organization",
+      name: "Deploy Software Solutions, inc.",
+      url: "https://deploy.solutions",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://deploy.solutions/img/open-graph.jpg"
+      }
+  },
+  image: {
+    "@type": "ImageObject",
+    url: "https://deploy.solutions/img/open-graph.jpg"
+  }
+};
+---
+
+<Default {...Astro.props} />
+
+<script 
+    type="application/ld+json" 
+    set:html={JSON.stringify(articleSchema)}>
+</script>
