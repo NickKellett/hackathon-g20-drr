@@ -15,3 +15,4 @@ date: 2025-09-01
 ## Related reading
 - View the [G20 DRR Hackathon Background](/posts/0/hackathon-background).
 - View the [Our Team Hackathon Approach](/posts/0/hackathon-approach).
+- View the [Our Team Hackathon Data and Software Tools](/posts/0/data-software-tools).

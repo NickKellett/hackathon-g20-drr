@@ -30,4 +30,5 @@ The organizers hope the hackathon will produce the following strategic outcomes 
 
 ## Related reading
 - View the [Our Team Hackathon Approach](/posts/0/hackathon-approach).
+- View the [Our Team Hackathon Data and Software Tools](/posts/0/data-software-tools).
 - View the [Our Team Hackathon Results](/posts/0/results).
