@@ -51,23 +51,23 @@ export const siteConfig = {
   page: {
     blogLinks: [
       {
-        text: '0_Overall_Results',
+        text: '0_Overall Results',
         href: '/blog/0',
       },
       {
-        text: '1_Settlement_Detection',
+        text: '1_Settlement Detection',
         href: '/blog/1',
       },
       {
-        text: '2_Settlement_Growth',
+        text: '2_Settlement Growth',
         href: '/blog/2',
       },
       {
-        text: '3_Flood_Risk',
+        text: '3_Flood Risk',
         href: '/blog/3',
       },
       {
-        text: '4_Policy_Outreach',
+        text: '4_Policy Outreach',
         href: '/blog/4',
       },
     ],
