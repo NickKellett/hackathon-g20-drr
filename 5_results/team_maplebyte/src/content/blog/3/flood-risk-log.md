@@ -20,6 +20,7 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
     - then compute streams from DTM and select only mainstem streams. 
     - then finally a HAND raster. this can be linked to river gauge readings to estimate flood based on terrain.
     - getting building footprints from [HOTOSM](https://data.humdata.org/dataset/hotosm_zaf_buildings). Doesn't have attributes we want, looking for category (single family house, residential...and maybe height), so will keep looking for alternatives.
+    - the settlement detection and classification map from stream1 is useful, can these be created for the future as well, in addition to the probability map?  those could be used in looking at the flood risk areas and settlements which could be inundated
 
 - Scripting
     - creating local python script which can be read into a notebook

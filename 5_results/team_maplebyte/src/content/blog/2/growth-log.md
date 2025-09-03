@@ -44,6 +44,14 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
 - We also compared the 2025 observed TIFF with the forecast. While the growth is not major, it is visible.
 - We uploaded the forecast in GeoTIFF format, each scenario has three outcomes (2026–2028). These should help with the flood overlays.
 - What we plan on doing next is making the forecast visualizations more appealing.
+- Restarting the work with the updated detection data, and will use the CA - Markov in QGIS to do the prediction now. 
+- As suggested earlier, instead of just assuming the growth to be random , we am putting in some constraints like roads, water bodies, slope etc. These are the datasets already available on git that's going to be helpful to me.
+    - Refined binary settlement maps.
+    - Change maps (useful for validation).
+    - LULC maps.
+    - Flood data: Sentinel-1 and Landsat-derived water indices (MNDWI, NDFI).
+    - Hydro-conditioned DTM (final_hydro_conditioned_masked.tif).
+- We need the boundary data as well
 
 ## Related reading
 - View the [Settlement Growth Prediction results](/posts/2/growth-results).
