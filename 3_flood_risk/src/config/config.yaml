@@ -1,0 +1,20 @@
+# parameters for hydroconntivity and hand model  ----
+mainprojectfolder: 'D:/g20/durban/'
+intermedieatefiles: 'D:/g20/durban/int/'
+projectboundary: 'D:/g20/durban/siteA.geojson'
+dtm_folder: 'D:/g20/durban/dtm/copglo30/rasters_COP30/'
+buildingsfolder : 'D:/g20/durban/buildings/'
+riskfolder: 'D:/g20/durban/risk/'
+
+#streams
+streamthres: 0.55
+q_lower: .10
+q_upper: .90
+stream_so: 'Hack'
+stream_so_val: 1
+snap_distance: 10
+
+#for risk
+current_hand: 7.25
+depth_thresholds: [0.1, 0.75, 1.5]
+output_html: 'D:/g20/durban/risk/map.html'
