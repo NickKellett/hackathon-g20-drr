@@ -20,6 +20,8 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
 - Related, our findings clearly indicate two distinct futures:
     - Flooding is a strong disrupter of settlement growth and changes (see also [Flood Risk Results](/posts/3/flood-risk-results)).
     - Better adaptation and resilience measures are in place (see also [Policy, Awareness & Outreach Results](/posts/4/policy-awareness-outreach-results)).
+- We built a slope mask (restricted slopes >30°) and combined it with the water mask from MNDWI. The result is our final constraint layer to feed into MOLUSCE showing only areas suitable for settlement growth.
+BLUE, good for settlement and RED shows the constraint.
 
 ## Related reading
 - View the [Settlement Growth Hackathon Activity Log](/posts/2/growth-log).
