@@ -23,6 +23,11 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
 
 - Scripting
     - creating local python script which can be read into a notebook
+    - extracting data for the flood event: 
+    1. Normalized Difference Flood Index (NDFI) from sentinel2 or landsat - or, what ever is available in the digital earth 
+    2. MNDWI (Modified NDWI):
+    3. Sentinel-1 SAR data (C-band, 10 m resolution, ~6–12 days revisit). 
+    - pushed data to https://github.com/NickKellett/hackathon-g20-drr/tree/main/3_flood_risk/data_for_analysis 
 
 ## Related reading
 - View the [Flood Risk results](/posts/3/flood-risk-results).
