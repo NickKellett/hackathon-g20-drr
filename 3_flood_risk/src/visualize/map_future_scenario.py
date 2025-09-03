@@ -10,7 +10,7 @@ from shapely.geometry import box
 from folium import Map, Html, Element
 
 
-def create_flood_risk_map(study_area_geojson, depth_raster_path, buildings_geojson, output_html):
+def create_flood_risk_map(config):
     """
     Create a Folium map with water depth raster and buildings colored by risk_index.
 
@@ -25,6 +25,15 @@ def create_flood_risk_map(study_area_geojson, depth_raster_path, buildings_geojs
     output_html : str or Path
         Path to save the interactive map.
     """
+
+        
+    study_area_geojson = config['projectboundary']
+    depth_raster_path = os.path.join(config['riskfolder'], "depth.tif" )
+    depth_raster_path2 = os.path.join(config['riskfolder'], "depth_future.tif" )
+    buildings_geojson = os.path.join(config['riskfolder'], "building_risk_output.geojson")
+    buildings_geojson2 = os.path.join(config['riskfolder'], "building_risk_output_future.geojson")
+
+    output_html = config['output_html_future']
     # Load study area to find centre
     study_gdf = gpd.read_file(study_area_geojson)
     center = study_gdf.unary_union.centroid
@@ -33,31 +42,52 @@ def create_flood_risk_map(study_area_geojson, depth_raster_path, buildings_geojs
     # Initialize Folium map
     m = folium.Map(location=map_center, zoom_start=12, tiles="CartoDB positron")
 
-    # Load depth raster
-    with rasterio.open(depth_raster_path) as src:
+      
+
+    with rasterio.open(depth_raster_path2) as src:
         depth_data = src.read(1)
         depth_data = np.where(depth_data == src.nodata, np.nan, depth_data)
         bounds = src.bounds
         transform = src.transform
 
-        # Normalize depth for color mapping
-        max_val = np.nanmax(depth_data)
-        colormap = cm.linear.Blues_09.scale(0, max_val)
-
+        
+         # ✅ Instead of colormap, pick a single color
+        single_color = "#3331bd"  # middle blue
         # Convert raster to polygons for Folium
         shapes = features.shapes(depth_data, mask=~np.isnan(depth_data), transform=transform)
         for geom, val in shapes:
             folium.GeoJson(
                 geom,
                 style_function=lambda feature, val=val: {
-                    "fillColor": colormap(val),
-                    "color": colormap(val),
+                    "fillColor": single_color,
+                    "color": single_color,
                     "weight": 0,
                     "fillOpacity": 0.6
                 }
             ).add_to(m)
-        colormap.caption = "Water Depth"
-        m.add_child(colormap)
+
+
+    with rasterio.open(depth_raster_path) as src:
+        depth_data = src.read(1)
+        depth_data = np.where(depth_data == src.nodata, np.nan, depth_data)
+        bounds = src.bounds
+        transform = src.transform
+
+        
+         # ✅ Instead of colormap, pick a single color
+        single_color = "#3331bd"  # middle blue
+        # Convert raster to polygons for Folium
+        shapes = features.shapes(depth_data, mask=~np.isnan(depth_data), transform=transform)
+        for geom, val in shapes:
+            folium.GeoJson(
+                geom,
+                style_function=lambda feature, val=val: {
+                    "fillColor": single_color,
+                    "color": single_color,
+                    "weight": 0,
+                    "fillOpacity": 0.6
+                }
+            ).add_to(m)
 
     # Load buildings GeoJSON
     buildings_gdf = gpd.read_file(buildings_geojson)
@@ -85,6 +115,24 @@ def create_flood_risk_map(study_area_geojson, depth_raster_path, buildings_geojs
         )
     ).add_to(m)
 
+    # Load buildings GeoJSON
+    buildings_gdf2 = gpd.read_file(buildings_geojson2)
+
+
+   # Add buildings to map with outline matching fill
+    folium.GeoJson(
+        buildings_gdf2,
+        style_function=lambda feature: {
+            "fillColor": risk_colors.get(feature["properties"]["risk_index"], "#808080"),
+            "color": risk_colors.get(feature["properties"]["risk_index"], "#808080"),  # outline same as fill
+            "weight": 1,
+            "fillOpacity": 0.7
+        },
+        tooltip=folium.GeoJsonTooltip(
+            fields=["current_water_depth", "risk_index"],
+            aliases=["Water Depth", "Risk Index"]
+        )
+    ).add_to(m)
     
     # Compute counts of each risk index
     risk_counts = buildings_gdf['risk_index'].value_counts().sort_index()
@@ -145,9 +193,5 @@ config_file = "D:/g20/src/config/config.yaml"
 with open(config_file, 'r') as f: 
     config = yaml.safe_load(f)
 
-study_area_geojson = config['projectboundary']
-depth_raster_path = os.path.join(config['riskfolder'], "depth.tif" )
-buildings_geojson = os.path.join(config['riskfolder'], "building_risk_output.geojson")
-output_html = config['output_html']
 
-create_flood_risk_map(study_area_geojson, depth_raster_path, buildings_geojson, output_html)
+create_flood_risk_map(config)

@@ -20,6 +20,8 @@ def process_hand_raster(config, hand_raster_path, temp_raster_path, depth_raster
     Threshold HAND raster and compute water depth raster.
     """
     current_hand = config["current_hand"]
+    future_hand = config["projection_hand"]
+    hand_threshold = current_hand + future_hand
     nodata_value = -32768
 
     # Open raster
@@ -29,7 +31,7 @@ def process_hand_raster(config, hand_raster_path, temp_raster_path, depth_raster
         input_nodata = src.nodata
 
     # Mask: values > current_hand or input nodata set to nodata
-    mask_nodata = (hand_data > current_hand)
+    mask_nodata = (hand_data > hand_threshold)
     if input_nodata is not None:
         mask_nodata |= (hand_data == input_nodata)
     temp_data = np.where(mask_nodata, nodata_value, hand_data)
@@ -40,7 +42,7 @@ def process_hand_raster(config, hand_raster_path, temp_raster_path, depth_raster
         dst.write(temp_data.astype(np.float32), 1)
 
     # Compute depth = current_hand - raster_value (only where valid)
-    depth_data = np.where(temp_data != nodata_value, current_hand - temp_data, nodata_value)
+    depth_data = np.where(temp_data != nodata_value, hand_threshold - temp_data, nodata_value)
 
     # Save depth raster
     with rasterio.open(depth_raster_path, "w", **profile) as dst:
@@ -124,8 +126,8 @@ def assign_risk_index(config):
     import geopandas as gpd
 
     # Load the updated GeoJSON that has current_water_depth
-    buildings_geojson = os.path.join(config['riskfolder'], "building_risk_output.geojson")
-    output_geojson = os.path.join(config['riskfolder'], "building_risk_output.geojson")
+    buildings_geojson = os.path.join(config['riskfolder'], "building_risk_output_future.geojson")
+    output_geojson = os.path.join(config['riskfolder'], "building_risk_output_future.geojson")
     gdf = gpd.read_file(buildings_geojson)  # make sure this is the file from extract_depth_at_buildings
 
     # Thresholds from config
@@ -153,7 +155,33 @@ def assign_risk_index(config):
 
     # Save updated GeoJSON
     gdf.to_file(output_geojson, driver="GeoJSON")
- 
+
+def remove_duplicates(config):
+    """
+    Remove duplicate buildings from the GeoDataFrame based on their geometry.
+    """
+    buildings_geojson_now = os.path.join(config['riskfolder'], "building_risk_output.geojson")
+    buildings_geojson_future = os.path.join(config['riskfolder'], "building_risk_output_future.geojson")
+    gdf1 = gpd.read_file(buildings_geojson_now)
+    gdf2 = gpd.read_file(buildings_geojson_future)
+
+    # Normalize geometries (remove metadata differences)
+    gdf1["geometry"] = gdf1["geometry"].apply(lambda g: g.normalize())
+    gdf2["geometry"] = gdf2["geometry"].apply(lambda g: g.normalize())
+
+    # Get unique geometries from the first file
+    geom_set1 = set(gdf1["geometry"])
+
+    # Filter gdf2 so it only keeps geometries not in gdf1
+    gdf2_clean = gdf2[~gdf2["geometry"].isin(geom_set1)]
+
+    # Save cleaned second GeoJSON
+    gdf2_clean.to_file(buildings_geojson_future, driver="GeoJSON")
+
+    print(f"Removed {len(gdf2) - len(gdf2_clean)} duplicate geometries from {gj2}")
+    #return gdf2_clean
+    #gdf.to_file(buildings_geojson_future, driver="GeoJSON")
+
 
 def risk(config):
     """
@@ -167,9 +195,10 @@ def risk(config):
     datadir = config['mainprojectfolder']
     hand_raster_path = os.path.join(datadir, "hand.tif")
     buildings_geojson = os.path.join(config['buildingsfolder'], "extracted_buildings.geojson")
-    temp_raster_path = os.path.join(config['riskfolder'], "temp.tif")
-    depth_raster_path = os.path.join(config['riskfolder'], "depth.tif")
-    output_geojson = os.path.join(config['riskfolder'], "building_risk_output.geojson")
+    #new files: 
+    temp_raster_path = os.path.join(config['riskfolder'], "temp_future.tif")
+    depth_raster_path = os.path.join(config['riskfolder'], "depth_future.tif")
+    output_geojson = os.path.join(config['riskfolder'], "building_risk_output_future.geojson")
 
     # Process HAND raster
     process_hand_raster(config, hand_raster_path, temp_raster_path, depth_raster_path)
@@ -179,6 +208,9 @@ def risk(config):
 
     #assign risk value
     assign_risk_index(config)
+
+    #remove duplicates
+    remove_duplicates(config)
 
     #######to comment out later:
  #for testing, code it: 
