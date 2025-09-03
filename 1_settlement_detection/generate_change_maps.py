@@ -4,7 +4,7 @@ import numpy as np
 from osgeo import gdal
 
 
-IMAGE_DATA = "binary_maps/"
+IMAGE_DATA = "refined_binary_maps/"
 
 def main():
     f_list = os.listdir(IMAGE_DATA)
