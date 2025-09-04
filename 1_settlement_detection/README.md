@@ -1,4 +1,4 @@
-*Binary maps of settlements*
+Binary maps of settlements
 =============================
 
 The binary maps of settlements were generated using Sentinel-2 satellite imagery available on the Digital Earth Africa (DEA) platform and the Urban Change Detection script.
