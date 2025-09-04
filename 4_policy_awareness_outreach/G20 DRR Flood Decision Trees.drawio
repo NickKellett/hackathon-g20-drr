@@ -1,0 +1,487 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.2" pages="2">
+  <diagram name="Page-1" id="wyFx1zi0FobXG9BPTV52">
+    <mxGraphModel dx="786" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dLwbAJt5n326JFdNoAdz-2" value="Identify areas at risk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="930" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-3" value="x" style="shape=link;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="dLwbAJt5n326JFdNoAdz-2" target="dLwbAJt5n326JFdNoAdz-5" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1090" y="570" as="sourcePoint" />
+            <mxPoint x="1190" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-4" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="dLwbAJt5n326JFdNoAdz-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Is the flood risk imminent?&lt;/font&gt;" style="text;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="1250" y="310" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-6" value="x" style="shape=link;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="dLwbAJt5n326JFdNoAdz-14" target="dLwbAJt5n326JFdNoAdz-5" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1490" y="470" as="sourcePoint" />
+            <mxPoint x="1440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-7" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="dLwbAJt5n326JFdNoAdz-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-8" value="Can an early warning system be established?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="700" y="550" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-9" value="x" style="shape=link;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="dLwbAJt5n326JFdNoAdz-8" target="dLwbAJt5n326JFdNoAdz-2" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="940" y="630" as="sourcePoint" />
+            <mxPoint x="1020" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-10" value="At risk" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="dLwbAJt5n326JFdNoAdz-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-11" value="x" style="shape=link;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="dLwbAJt5n326JFdNoAdz-13" target="dLwbAJt5n326JFdNoAdz-2" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1200" y="610" as="sourcePoint" />
+            <mxPoint x="1170" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-12" value="Safe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="dLwbAJt5n326JFdNoAdz-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-13" value="Safe rallying point for evacuees" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="550" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-14" value="Future flood risk by area" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1700" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dLwbAJt5n326JFdNoAdz-16" target="dLwbAJt5n326JFdNoAdz-50" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-16" value="Improve informal settlements" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-17" value="x" style="shape=link;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="dLwbAJt5n326JFdNoAdz-16" target="dLwbAJt5n326JFdNoAdz-14" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1330" y="710" as="sourcePoint" />
+            <mxPoint x="1490" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-18" value="Actions in the community" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="dLwbAJt5n326JFdNoAdz-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-19" value="x" style="shape=link;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="dLwbAJt5n326JFdNoAdz-21" target="dLwbAJt5n326JFdNoAdz-14" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1640" y="610" as="sourcePoint" />
+            <mxPoint x="1610" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-20" value="Actions around the community" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="dLwbAJt5n326JFdNoAdz-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-21" value="Nature Based-Solutions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="2010" y="590" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-22" value="Do residents have cell phones?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="360" y="669.9987676599249" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-23" value="Peer to peer phone network, mesh networks, upgraded cell towers&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="180" y="790" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-24" value="x" style="shape=link;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="dLwbAJt5n326JFdNoAdz-23" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="280" y="829.5987676599249" as="sourcePoint" />
+            <mxPoint x="360" y="749.5987676599249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-25" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="dLwbAJt5n326JFdNoAdz-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-26" value="x" style="shape=link;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="dLwbAJt5n326JFdNoAdz-28" target="dLwbAJt5n326JFdNoAdz-22" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="540" y="809.5987676599249" as="sourcePoint" />
+            <mxPoint x="510" y="729.5987676599249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-27" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="dLwbAJt5n326JFdNoAdz-26" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-28" value="Utilize bells/alarms with powergrid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="520" y="829.6" width="120" height="90.4" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-29" value="x" style="shape=link;html=1;rounded=0;fontFamily=Georgia;fontSize=18;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" target="dLwbAJt5n326JFdNoAdz-8" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="480" y="670" as="sourcePoint" />
+            <mxPoint x="560" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-30" value="Yes, with investments" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="dLwbAJt5n326JFdNoAdz-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-31" value="Identify the risk this land poses to people" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;" parent="1" target="dLwbAJt5n326JFdNoAdz-32" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="2070" y="930" as="sourcePoint" />
+            <mxPoint x="2200" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-32" value="Unused land, golf courses, etc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="2010" y="760" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-33" value="Repurpose land for flood&amp;nbsp;&lt;div&gt;mitigation and adaptation&lt;/div&gt;" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="dLwbAJt5n326JFdNoAdz-32" target="dLwbAJt5n326JFdNoAdz-21" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="2262" y="760" as="sourcePoint" />
+            <mxPoint x="2132" y="669.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-34" value="Expropriation Act, 2024" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="2119.995360505415" y="949.99326529423" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-35" value="" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="dLwbAJt5n326JFdNoAdz-38" target="dLwbAJt5n326JFdNoAdz-13" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1150" y="710" as="sourcePoint" />
+            <mxPoint x="1160" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-36" value="Purchase land from owners" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1900" y="950" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-37" value="" style="shape=link;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;" parent="1" target="dLwbAJt5n326JFdNoAdz-34" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="2020" y="950" as="sourcePoint" />
+            <mxPoint x="2390" y="840" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2070" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-38" value="Inform citizens of safe locations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-39" value="" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="dLwbAJt5n326JFdNoAdz-40" target="dLwbAJt5n326JFdNoAdz-38" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1200" y="920" as="sourcePoint" />
+            <mxPoint x="1200" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-40" value="Collaborate with NGOs and Private sector to fortify reception area" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="830" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-41" value="x" style="shape=link;html=1;rounded=0;fontFamily=Georgia;fontSize=18;entryX=1;entryY=1;entryDx=0;entryDy=0;" parent="1" target="dLwbAJt5n326JFdNoAdz-8" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="900" y="730" as="sourcePoint" />
+            <mxPoint x="900" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-42" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="dLwbAJt5n326JFdNoAdz-41" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-43" value="Encourage residents to move to safe areas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="840" y="730" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-44" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dLwbAJt5n326JFdNoAdz-43" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1010" y="910" as="sourcePoint" />
+            <mxPoint x="900" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-45" value="Forced evacuation prior to flood season" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="840" y="909.6" width="120" height="90.4" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-46" value="Complementary EWS" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="dLwbAJt5n326JFdNoAdz-48" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="420" y="1030" as="sourcePoint" />
+            <mxPoint x="420" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-47" value="" style="shape=link;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="dLwbAJt5n326JFdNoAdz-23" target="dLwbAJt5n326JFdNoAdz-28" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="340" y="920" as="sourcePoint" />
+            <mxPoint x="480" y="929.6" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-48" value="Safe rallying point for evacuees" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1020" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-49" value="" style="html=1;rounded=0;fontFamily=Georgia;fontSize=18;edgeStyle=elbowEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=block;endFill=1;" parent="1" source="dLwbAJt5n326JFdNoAdz-48" target="dLwbAJt5n326JFdNoAdz-13" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="420" y="1030" as="sourcePoint" />
+            <mxPoint x="910" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-50" value="Floodwalls" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-51" value="" style="html=1;rounded=0;fontFamily=Georgia;fontSize=18;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="dLwbAJt5n326JFdNoAdz-50" target="dLwbAJt5n326JFdNoAdz-53" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1640" y="950" as="sourcePoint" />
+            <mxPoint x="1640" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dLwbAJt5n326JFdNoAdz-53" target="dLwbAJt5n326JFdNoAdz-54" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-53" value="Programs that pay residents to clear debris regularly" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="800" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dLwbAJt5n326JFdNoAdz-54" value="Improve water and power services" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Georgia;fillColor=#1ba1e2;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1530" y="930" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qrvwxdMP-VJw4wRJG_7l-1" value="Text" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qrvwxdMP-VJw4wRJG_7l-2" value="Formal Decision Tree" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1130" y="240" width="430" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="sJa4R679X7xPNIZ3-iCm" name="Page-2">
+    <mxGraphModel dx="786" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-1" value="Identify areas at risk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-2" value="x" style="shape=link;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="_lA2QvjvAb_gtXNxqooy-1" target="_lA2QvjvAb_gtXNxqooy-4" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1260" y="560" as="sourcePoint" />
+            <mxPoint x="1360" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-3" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="_lA2QvjvAb_gtXNxqooy-2" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Is the flood risk imminent?&lt;/font&gt;" style="text;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="300" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-5" value="x" style="shape=link;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="_lA2QvjvAb_gtXNxqooy-13" target="_lA2QvjvAb_gtXNxqooy-4" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1660" y="460" as="sourcePoint" />
+            <mxPoint x="1610" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-6" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="_lA2QvjvAb_gtXNxqooy-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-7" value="Can residents receive advance flood warnings?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="870" y="540" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-8" value="x" style="shape=link;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="_lA2QvjvAb_gtXNxqooy-7" target="_lA2QvjvAb_gtXNxqooy-1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1110" y="620" as="sourcePoint" />
+            <mxPoint x="1190" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-9" value="At risk" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="_lA2QvjvAb_gtXNxqooy-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-10" value="x" style="shape=link;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="_lA2QvjvAb_gtXNxqooy-12" target="_lA2QvjvAb_gtXNxqooy-1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1370" y="600" as="sourcePoint" />
+            <mxPoint x="1340" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-11" value="Safe" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="_lA2QvjvAb_gtXNxqooy-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-12" value="Safe rallying point for evacuees" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="540" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-13" value="Future flood risk by area" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1760" y="400" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_lA2QvjvAb_gtXNxqooy-15" target="_lA2QvjvAb_gtXNxqooy-48" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-15" value="Improve informal settlements" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-16" value="x" style="shape=link;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="_lA2QvjvAb_gtXNxqooy-15" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1310" y="700" as="sourcePoint" />
+            <mxPoint x="1760" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-17" value="Actions in the community" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="_lA2QvjvAb_gtXNxqooy-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-18" value="x" style="shape=link;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0;exitDx=0;exitDy=0;fontFamily=Georgia;fontSize=18;" parent="1" source="_lA2QvjvAb_gtXNxqooy-20" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1760" y="580" as="sourcePoint" />
+            <mxPoint x="1880" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-19" value="Actions around the community" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="_lA2QvjvAb_gtXNxqooy-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-20" value="Nature Based-Solutions (NBS)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="2080" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-21" value="Residents with advance warning" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="580" y="679.9987676599249" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-28" value="" style="shape=link;html=1;rounded=0;fontFamily=Georgia;fontSize=18;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="1" source="_lA2QvjvAb_gtXNxqooy-21" target="_lA2QvjvAb_gtXNxqooy-7" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="650" y="660" as="sourcePoint" />
+            <mxPoint x="730" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-29" value="Most can" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Georgia;fontSize=18;" parent="_lA2QvjvAb_gtXNxqooy-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.0124" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-31" value="Advocate for NBS solutions" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="2080" y="740" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-32" value="Repurpose land for flood&amp;nbsp;&lt;div&gt;mitigation and adaptation&lt;/div&gt;" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="_lA2QvjvAb_gtXNxqooy-31" target="_lA2QvjvAb_gtXNxqooy-20" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="2332" y="740" as="sourcePoint" />
+            <mxPoint x="2202" y="649.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-34" value="" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="_lA2QvjvAb_gtXNxqooy-37" target="_lA2QvjvAb_gtXNxqooy-12" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1320" y="700" as="sourcePoint" />
+            <mxPoint x="1330" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-37" value="Inform Neighbours of safe locations" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1260" y="660" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-38" value="" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="_lA2QvjvAb_gtXNxqooy-39" target="_lA2QvjvAb_gtXNxqooy-37" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1370" y="910" as="sourcePoint" />
+            <mxPoint x="1370" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-39" value="Collaborate with government, NGOs and private sector to strengthen reception area" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="790" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-42" value="Encourage residents to move to safe areas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="730" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-43" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_lA2QvjvAb_gtXNxqooy-42" target="_lA2QvjvAb_gtXNxqooy-44" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1180" y="900" as="sourcePoint" />
+            <mxPoint x="1070" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-44" value="Discourage new residents from occupying flood-prone areas" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="900" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-48" value="Participate in drainage clean-ups" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1510" y="680" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_lA2QvjvAb_gtXNxqooy-53" target="_lA2QvjvAb_gtXNxqooy-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="_lA2QvjvAb_gtXNxqooy-53" target="_lA2QvjvAb_gtXNxqooy-63" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jGWuIRq_qmK4brLcS02Q-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" parent="1" source="_lA2QvjvAb_gtXNxqooy-53" target="jGWuIRq_qmK4brLcS02Q-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-53" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Organize community groups&lt;/font&gt;" style="text;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="140" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-57" value="No" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="990" y="710" as="sourcePoint" />
+            <mxPoint x="990" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-58" value="" style="shape=link;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Georgia;fontSize=18;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="_lA2QvjvAb_gtXNxqooy-59" target="_lA2QvjvAb_gtXNxqooy-42" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="930" y="720" as="sourcePoint" />
+            <mxPoint x="1040" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="990" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-59" value="Create a buddy-system to ensure all residents evacuate&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="760" y="725" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.445;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="_lA2QvjvAb_gtXNxqooy-21" target="_lA2QvjvAb_gtXNxqooy-59" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_lA2QvjvAb_gtXNxqooy-63" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Hold regular meetings to discuss all hazards (flooding, heat, etc)&lt;/font&gt;" style="text;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="135" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="vJrFgyPNeg2FIaPGHDNl-1" value="Utilize emoji or images to warn of danger" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="750" y="950" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="jGWuIRq_qmK4brLcS02Q-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="jGWuIRq_qmK4brLcS02Q-1" target="jGWuIRq_qmK4brLcS02Q-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jGWuIRq_qmK4brLcS02Q-1" value="Pool resources" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1740" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jGWuIRq_qmK4brLcS02Q-2" value="" style="shape=link;html=1;rounded=0;fontFamily=Georgia;fontSize=18;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="jGWuIRq_qmK4brLcS02Q-1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1710" y="680" as="sourcePoint" />
+            <mxPoint x="1710" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jGWuIRq_qmK4brLcS02Q-3" value="Micro-financing" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=default;fontFamily=Georgia;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="1740" y="660" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jGWuIRq_qmK4brLcS02Q-4" value="" style="html=1;rounded=0;fontFamily=Georgia;fontSize=18;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="jGWuIRq_qmK4brLcS02Q-3" target="jGWuIRq_qmK4brLcS02Q-5" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="1860" y="950" as="sourcePoint" />
+            <mxPoint x="1810" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jGWuIRq_qmK4brLcS02Q-5" value="Share knowledge on risks" style="whiteSpace=wrap;html=1;fontSize=18;fontFamily=Georgia;fillColor=#1ba1e2;fontColor=#ffffff;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1740" y="770" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jGWuIRq_qmK4brLcS02Q-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Create trust and solidarity among the community&lt;/font&gt;" style="text;strokeColor=#006EAF;align=center;fillColor=#1ba1e2;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#ffffff;fontFamily=Georgia;" parent="1" vertex="1">
+          <mxGeometry x="1180" y="140" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="udBS-Qr8LlihrNohRV3P-1" value="Informal Decision Tree" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1020" y="60" width="430" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
