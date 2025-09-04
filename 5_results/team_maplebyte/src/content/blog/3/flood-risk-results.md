@@ -22,5 +22,13 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
 - Flood risk prediction map:
  ![Flood Risk Map](/flood_risk_map.png)
 
+## Running the Notebook
+To run the *FloodMapping.ipynb* Jupyter notebook in *"\3_flood_risk\src\"* folder, you will need:
+1. A Jupyter notebook server such as Digital Earth Africa
+2. geojson of your study area (preferably in WGS84). One place to easily create one is from [GeoJson.io](https://geojson.io/) from MapBox. 
+3. config.yaml file. update it to the file paths/parameters of your choosing. (existing config file in config folder)
+4. GeoTIF: urban settlements present day and for future scenario
+5. GeoTIF of MWDWI
+
 ## Related reading
 - View the [Flood Risk Hackathon Activity Log](/posts/3/flood-risk-log).
