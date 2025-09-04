@@ -9,7 +9,7 @@ import os
 
 import yaml
 
-def process_rasters(config):
+def main_floodmapping(config):
     """
     Parameters
     ----------
@@ -59,11 +59,15 @@ def process_rasters(config):
 # -----------------
     with rasterio.open(rasterB_path) as srcB, rasterio.open(reclass_path) as reclass_src:
         profileB = srcB.profile.copy()
-        dataB = srcB.read(1, masked=True)
-
-        # Reproject reclass raster to match rasterB grid
+        dataB = srcB.read(1)
         reclass_data = np.empty_like(dataB, dtype=np.int16)
 
+        print("reclass_src.read(1) shape:", reclass_src.read(1).shape)
+        print("reclass_data shape:", reclass_data.shape)
+        print("src_transform:", reclass_src.transform)
+        print("src_crs:", reclass_src.crs)
+        print("dst_transform:", srcB.transform)
+        print("dst_crs:", srcB.crs)
         reproject(
             source=reclass_src.read(1),
             destination=reclass_data,
@@ -147,6 +151,7 @@ def process_hand_short_future(config, current_hand):
     # Compute depth = current_hand - raster_value (only where valid)
     depth_data = np.where(temp_data != nodata_value, hand_threshold - temp_data, nodata_value)
 
+    depth_raster_path = os.path.join(config['riskfolder'], "depth_shortterm.tif")
     # Save depth raster
     with rasterio.open(depth_raster_path, "w", **profile) as dst:
         dst.write(depth_data.astype(np.float32), 1)
@@ -154,9 +159,8 @@ def process_hand_short_future(config, current_hand):
 
 #######to comment out later:
  #for testing, code it: 
-config_file = "D:/g20/src/config/config.yaml"
-with open(config_file, 'r') as f: 
-    config = yaml.safe_load(f)
+#config_file = "D:/g20/src/config/config.yaml"
+#with open(config_file, 'r') as f: 
+#    config = yaml.safe_load(f)
 
-
-stats = process_rasters(config)
+#main_floodmapping(config)
