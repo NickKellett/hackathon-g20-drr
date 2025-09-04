@@ -1,11 +1,11 @@
 Binary maps of settlements
 =============================
 
-The binary maps of settlements were generated using Sentinel-2 satellite imagery available on the Digital Earth Africa (DEA) platform and the Urban Change Detection script.
+The binary maps of settlements were generated using Sentinel-2 satellite imagery available on the Digital Earth Africa (DEA) platform and the Urban Change Detection script, also available on the DEA.
 <br>The process involved several key steps:
 1. **AOI selection**:
-A GeoJSON file delineating the area of interest (AOI) was used to focus the analysis on a specific geographic region—specifically, Durban, South Africa.
-2. **Data Acquisition**: Sentinel-2 imagery was accessed through the DEA platform. For the analysis, we acquired images from 2019 to 2025, with a focus on 2022 when a major flood event occurred from 8–18 April 2022.
+A GeoJSON file delineating the area of interest (AOI) was used to focus the analysis on a specific geographic region, specifically, Durban, South Africa.
+2. **Data Acquisition**: Sentinel-2 imagery was accessed through the DEA platform. For the analysis, we acquired images from 2019 to 2025, with a focus on 2022 when a major flood event occurred from 8 – 18 April 2022.
 For the pre-flood period, the image from 29 March 2022 was used, while for the post-flood period, the image from 28 April 2022 was utilized, as these were the closest cloud-free images available around the event.
 We used the swir_1, swir_2, blue, green, and red bands and set a spatial resolution of 10 meters.
 For the years 2019–2021 and 2023–2024, we used annual geomedians; for 2025, we used the image from 8 March 2025, because a geomedian was not available for that year.
