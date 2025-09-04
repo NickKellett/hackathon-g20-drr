@@ -34,7 +34,7 @@ export default defineConfig({
 				},
 				{
 					label: 'Settlements',
-					autogenerate: { directory: 'settlements' },
+					autogenerate: { directory: 's[ettlements' },
 				},
 				{
 					label: 'Risks',

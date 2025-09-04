@@ -52,10 +52,16 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
     - Flood data: Sentinel-1 and Landsat-derived water indices (MNDWI, NDFI).
     - Hydro-conditioned DTM (final_hydro_conditioned_masked.tif).
 - We need the boundary data as well
-- We used the DTM provided to generate the slope and also the MNDWI for water mask. We tried generating rasters from road shapefiles but the min max values I'm getting ( 1 and 1)  might interfere with the distance generation. 
+- We used the DTM provided to generate the slope and also the MNDWI for water mask
+- We tried generating rasters from road shapefiles but the min max values we are getting getting ( 1 and 1)  might interfere with the distance generation. 
 - We built a slope mask (restricted slopes >30°) and combined it with the water mask from MNDWI. The result is our final constraint layer to feed into MOLUSCE showing only areas suitable for settlement growth.
 BLUE, good for settlement and RED shows the constraint.
 ![Growth Constraint Map](/settlement_growth_constraints.png)
+- We generated three outputs which give us both the past trend and the future projection. The range is between 1 and -1 so they can be reclassified or symbolized to show gain, no gain and then loss:
+    - The 2019 → 2025 change map, showing how settlements actually evolved.
+    - The growth map leading into 2028, capturing expansion over the 3-year window.
+    - The 2025 → 2028 change map, which is our forecasted growth.
+
 
 ## Related reading
 - View the [Settlement Growth Prediction results](/posts/2/growth-results).
