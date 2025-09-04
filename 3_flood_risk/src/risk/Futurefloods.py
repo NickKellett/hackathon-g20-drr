@@ -178,7 +178,7 @@ def remove_duplicates(config):
     # Save cleaned second GeoJSON
     gdf2_clean.to_file(buildings_geojson_future, driver="GeoJSON")
 
-    print(f"Removed {len(gdf2) - len(gdf2_clean)} duplicate geometries from {gj2}")
+    print(f"Removed {len(gdf2) - len(gdf2_clean)} duplicate geometries from {gdf1}")
     #return gdf2_clean
     #gdf.to_file(buildings_geojson_future, driver="GeoJSON")
 
@@ -216,7 +216,7 @@ def risk(config):
  #for testing, code it: 
 config_file = "D:/g20/src/config/config.yaml"
 with open(config_file, 'r') as f: 
-    config = yaml.safe_load(f)
+   config = yaml.safe_load(f)
 
 
 risk(config)

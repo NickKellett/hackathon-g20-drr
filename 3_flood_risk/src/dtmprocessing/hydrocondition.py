@@ -41,9 +41,9 @@ config_file = "D:/g20/src/config/config.yaml"
 # --------------------------
 def hydrocondition_dtm(config, dtm):
     #for pitfilling.. etc prep for hydro conditioning and HAND
-    BASE_DIR = config["mainprojectfolder"]
+   
     saf = config['projectboundary']
-    wd = BASE_DIR
+    wd = config["mainprojectfolder"]
     wbt = WhiteboxTools()
     wbt.set_working_dir(wd)
     ## but licensed
@@ -440,24 +440,20 @@ def mask_final_hydro_conditioned(input_raster, study_area_file, output_raster):
         with rasterio.open(output_raster, "w", **out_meta) as dest:
             dest.write(out_image)
 
-def main(config_file):
-    with open(config_file, 'r') as f: 
-        config = yaml.safe_load(f)
-    
+def main_hydrocondition(config):
+   
     BASE_DIR = config["mainprojectfolder"]
     study_area = config['projectboundary']
-    
     dem_folder = config['dtm_folder']
     
-
-    #merge/clip dems.
-    output_raster = os.path.join(BASE_DIR, "dtm_clipped.tif")
-    dtm_raster = clip_rasters_bound(study_area, dem_folder, output_raster)
-    dtm = glob.glob(os.path.join(BASE_DIR, "dtm_clipped.tif"))
     
-
-    #now, hydro condition. 
-    hydrocondition_dtm(config, "dtm_clipped.tif")
+    #merge/clip dems.
+    #output_raster = os.path.join(BASE_DIR, "dtm_clipped.tif")
+    #dtm_raster = clip_rasters_bound(study_area, dem_folder, output_raster)
+    dtm = os.path.join(config['dtm_folder'], "dem_copglo30_clipped.tif")
+    
+    #now, hydro condition. \
+    hydrocondition_dtm(config, dtm)
 
     #now hand:
     hand(config, "final_hydro_conditioned_masked.tif")
@@ -478,4 +474,9 @@ def main(config_file):
     print("Done! All .tif files (except hand.tif) moved to:", dst_dir)  
  """
 
-main(config_file)
+ #for testing, code it: 
+#config_file = "D:/g20/src/config/config.yaml"
+#with open(config_file, 'r') as f: 
+#    config = yaml.safe_load(f)
+
+#main_hydrocondition(config)

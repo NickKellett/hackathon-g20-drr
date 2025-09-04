@@ -2,7 +2,7 @@
 mainprojectfolder: 'D:/g20/durban/'
 intermedieatefiles: 'D:/g20/durban/int/'
 projectboundary: 'D:/g20/durban/siteA.geojson'
-dtm_folder: 'D:/g20/durban/dtm/copglo30/rasters_COP30/'
+dtm_folder: 'D:/g20/durban/dtm/'
 buildingsfolder : 'D:/g20/durban/buildings/'
 riskfolder: 'D:/g20/durban/risk/'
 rasterA_path: 'D:/g20/durban/satellite/2022-04-17_S1_VV.tif'
