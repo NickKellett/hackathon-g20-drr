@@ -9,6 +9,16 @@ date: 2025-09-02
 Risk Classification – Overlay forecasts with flood hazard maps using imagery and algorithms from [Digital Earth Africa](https://digitalearthafrica.org/en_za/).
 
 ## Results
+- For flood mapping we've broken the task into two components;
+    1. Current flood and short-term flood extents
+    2. Longer term floodBoth scenarios are mostly hypothetical.
+- In Scenario 1, we combine satellite data and HAND model to estimate flood boundaries. Satellite data was used to identify water. The image used is from 2022-04-14, using LandSat8 and computing MNDWI. 
+- This was then thresholded to estimate water and non-water. From the 'water' we then analyzed it with the Height Above Nearest Drainage (HAND) dataset, built from the Copernicus Glo 30 DEM. 
+- The intersection of the MNDWI and the associated HAND values was explored and statistics of those HAND values were recorded. 
+- We combined this HAND and MNDWI to be a 'current' flood scenario. 
+- We then added an artificial adjustment to estimate short-term potential flood. e.g. in the next 24hrs how might the water level change.
+- We then explored vector data from OSM, streets, emergency facilities (hospital, police, firestations, etc.) parks in combination with the flood extents to estimate where probable evacuation points could be for citizens in/near flood zones.*for the current and short-term future flood scenarios, using near-by river gauges, synthetic rating curves or manual estimates could aid in creating a more realistic extent map.
+- In Scenario 2, we made use of the HAND Model again, setting differnt thresholds for potential future flood extents. These again are hypothetical, but could represent changing flood zones due to climate change, increased urbanization, etc. This is then overlaid by the urban pixels identified in task1, and the estimated growth from task 2.
 - Flood risk prediction map:
  ![Flood Risk Map](/flood_risk_map.png)
 

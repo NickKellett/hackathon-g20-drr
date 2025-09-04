@@ -12,7 +12,7 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
 - Exploring DSM & DTM:
     - Digital Surface Model: ESA Copernicus glo 30 (this is technically a surface model,not terrain model)
     - Digital Terrain Model: [DeltaDTM v1.1](https://data.4tu.nl/datasets/1da2e70f-6c4d-4b03-86bd-b53e789cc629)
-    - but no river data in deltadtm, so need to either merge in w/. copernicus, or fill na's.
+    - but no river data in deltadtm, so need to either merge in w/. copernicus, or fill na's.    
     
 - Modelling:
     - working to create hand model, which can be useful with riverine flooding (not necessarily coastal flooding or flash floods). [HAND](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjb3MOqzrqPAxXN1skDHZ8jK2gQFnoECB0QAQ&url=https%3A%2F%2Fnhess.copernicus.org%2Fpreprints%2Fnhess-2019-82%2Fnhess-2019-82-AR1.pdf&usg=AOvVaw3LAo4oXDR0-X02TveEjatj&opi=89978449)
@@ -24,10 +24,10 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
 
 - Scripting
     - creating local python script which can be read into a notebook
-    - extracting data for the flood event: 
-    1. Normalized Difference Flood Index (NDFI) from sentinel2 or landsat - or, what ever is available in the digital earth 
-    2. MNDWI (Modified NDWI):
-    3. Sentinel-1 SAR data (C-band, 10 m resolution, ~6–12 days revisit). 
+    - extracting data for the flood event (all data from April 2022): 
+    1. Normalized Difference Flood Index (NDFI) from sentinel2 or landsat - or, what ever is available in the Digital Earth Africa.  
+    2. MNDWI (Modified NDWI). For the NDFI and MNDWI indices we used Landsat-8 30m image from 14th April 2022.
+    3. Sentinel-1 SAR data (C-band, 10 m resolution, ~6–12 days revisit) from 2022-04-05 to 2022-04-17, acquired from the DEA sandbox using its tools.
     - pushed data to https://github.com/NickKellett/hackathon-g20-drr/tree/main/3_flood_risk/data_for_analysis 
  - Pushed new code and html maps to github. The data created from the scripts is also uploaded: data outputs are in the Durban folder, code in src. 
  ![Flood Risk Map](/flood_risk_map.png)
