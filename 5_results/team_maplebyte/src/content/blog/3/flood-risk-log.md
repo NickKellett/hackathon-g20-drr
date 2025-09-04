@@ -29,6 +29,7 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
     2. MNDWI (Modified NDWI):
     3. Sentinel-1 SAR data (C-band, 10 m resolution, ~6–12 days revisit). 
     - pushed data to https://github.com/NickKellett/hackathon-g20-drr/tree/main/3_flood_risk/data_for_analysis 
+ - Pushed new code and html maps to github. The data created from the scripts is also uploaded: data outputs are in the Durban folder, code in src. 
 
 ## Related reading
 - View the [Flood Risk results](/posts/3/flood-risk-results).
