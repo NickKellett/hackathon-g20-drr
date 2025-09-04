@@ -20,6 +20,14 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
 - Related, our findings clearly indicate two distinct futures:
     - Flooding is a strong disrupter of settlement growth and changes (see also [Flood Risk Results](/posts/3/flood-risk-results)).
     - Better adaptation and resilience measures are in place (see also [Policy, Awareness & Outreach Results](/posts/4/policy-awareness-outreach-results)).
+- We built a slope mask (restricted slopes >30°) and combined it with the water mask from MNDWI. The result is our final constraint layer to feed into MOLUSCE showing only areas suitable for settlement growth.
+BLUE, good for settlement and RED shows the constraint.
+![Growth Constraint Map](/settlement_growth_constraints.png)
+- Produced three outputs:
+    - The 2019 → 2025 change map, showing how settlements actually evolved.
+    - The growth map leading into 2028, capturing expansion over the 3-year window.
+    - The 2025 → 2028 change map, which is our forecasted growth.
+- This gives us both the past trend and the future projection. the range is between 1 and -1 so they can be reclassified or symbolized to show gain, no gain and then loss
 
 ## Related reading
 - View the [Settlement Growth Hackathon Activity Log](/posts/2/growth-log).

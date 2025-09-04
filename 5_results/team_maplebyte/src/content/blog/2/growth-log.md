@@ -44,6 +44,24 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
 - We also compared the 2025 observed TIFF with the forecast. While the growth is not major, it is visible.
 - We uploaded the forecast in GeoTIFF format, each scenario has three outcomes (2026–2028). These should help with the flood overlays.
 - What we plan on doing next is making the forecast visualizations more appealing.
+- Restarting the work with the updated detection data, and will use the CA - Markov in QGIS to do the prediction now. 
+- As suggested earlier, instead of just assuming the growth to be random , we am putting in some constraints like roads, water bodies, slope etc. These are the datasets already available on git that's going to be helpful to me.
+    - Refined binary settlement maps.
+    - Change maps (useful for validation).
+    - LULC maps.
+    - Flood data: Sentinel-1 and Landsat-derived water indices (MNDWI, NDFI).
+    - Hydro-conditioned DTM (final_hydro_conditioned_masked.tif).
+- We need the boundary data as well
+- We used the DTM provided to generate the slope and also the MNDWI for water mask
+- We tried generating rasters from road shapefiles but the min max values we are getting getting ( 1 and 1)  might interfere with the distance generation. 
+- We built a slope mask (restricted slopes >30°) and combined it with the water mask from MNDWI. The result is our final constraint layer to feed into MOLUSCE showing only areas suitable for settlement growth.
+BLUE, good for settlement and RED shows the constraint.
+![Growth Constraint Map](/settlement_growth_constraints.png)
+- We generated three outputs which give us both the past trend and the future projection. The range is between 1 and -1 so they can be reclassified or symbolized to show gain, no gain and then loss:
+    - The 2019 → 2025 change map, showing how settlements actually evolved.
+    - The growth map leading into 2028, capturing expansion over the 3-year window.
+    - The 2025 → 2028 change map, which is our forecasted growth.
+
 
 ## Related reading
 - View the [Settlement Growth Prediction results](/posts/2/growth-results).

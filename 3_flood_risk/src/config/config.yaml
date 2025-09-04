@@ -5,9 +5,10 @@ projectboundary: 'D:/g20/durban/siteA.geojson'
 dtm_folder: 'D:/g20/durban/dtm/copglo30/rasters_COP30/'
 buildingsfolder : 'D:/g20/durban/buildings/'
 riskfolder: 'D:/g20/durban/risk/'
+rasterA_path: 'D:/g20/durban/satellite/2022-04-17_S1_VV.tif'
 
 #streams
-streamthres: 0.55
+streamthres: 0.75
 q_lower: .10
 q_upper: .90
 stream_so: 'Hack'
@@ -15,8 +16,26 @@ stream_so_val: 1
 snap_distance: 10
 
 #for risk
-current_hand: 8.5
-projection_hand: 1.25
+current_hand: 6.5
+projection_hand: 2.25
+projection_hand2: 3.25
+projection_hand3: 5
 depth_thresholds: [0.3, 0.65, 1.25]
 output_html: 'D:/g20/durban/risk/map.html'
 output_html_future: 'D:/g20/durban/risk/map_future.html'
+MNDWI_threshold: 0.08
+
+value_colors:
+  - min: 0
+    max: 4
+    color: "#7a0177"
+  - min: 4
+    max: 10
+    color: "#c51b8a"
+  - min: 10
+    max: 18
+    color: "#f768a1"
+
+#satellite data - change maps
+urban_2022: 'D:/g20/durban/urban/2022_1_after_refined_binary.tif'
+urban_2028: 'D:/g20/durban/urban/changeMap_2025-2028.tif'

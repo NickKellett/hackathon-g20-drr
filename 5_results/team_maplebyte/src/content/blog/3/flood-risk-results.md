@@ -9,6 +9,8 @@ date: 2025-09-02
 Risk Classification – Overlay forecasts with flood hazard maps using imagery and algorithms from [Digital Earth Africa](https://digitalearthafrica.org/en_za/).
 
 ## Results
+- Flood risk prediction map:
+ ![Flood Risk Map](/flood_risk_map.png)
 
 ## Related reading
 - View the [Flood Risk Hackathon Activity Log](/posts/3/flood-risk-log).
