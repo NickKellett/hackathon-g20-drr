@@ -20,7 +20,7 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
     - then compute streams from DTM and select only mainstem streams. 
     - then finally a HAND raster. this can be linked to river gauge readings to estimate flood based on terrain.
     - getting building footprints from [HOTOSM](https://data.humdata.org/dataset/hotosm_zaf_buildings). Doesn't have attributes we want, looking for category (single family house, residential...and maybe height), so will keep looking for alternatives.
-    - the settlement detection and classification map from stream1 is useful, can these be created for the future as well, in addition to the probability map?  those could be used in looking at the flood risk areas and settlements which could be inundated
+    - the settlement detection and classification map from Stream 1 is useful, can these be created for the future as well, in addition to the probability map?  those could be used in looking at the flood risk areas and settlements which could be inundated
 
 - Scripting
     - creating local python script which can be read into a notebook
@@ -29,13 +29,22 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
     2. MNDWI (Modified NDWI). For the NDFI and MNDWI indices we used Landsat-8 30m image from 14th April 2022.
     3. Sentinel-1 SAR data (C-band, 10 m resolution, ~6–12 days revisit) from 2022-04-05 to 2022-04-17, acquired from the DEA sandbox using its tools.
     - pushed data to https://github.com/NickKellett/hackathon-g20-drr/tree/main/3_flood_risk/data_for_analysis 
- - Pushed new code and html maps to github. The data created from the scripts is also uploaded: data outputs are in the Durban folder, code in src. 
+    - Pushed new code and html maps to github. The data created from the scripts is also uploaded: data outputs are in the Durban folder, code in src. 
+
 - Flood extents prediction map:
  ![Flood Extents Map](/flood_extents_layer_map.png)
 - Flood risk prediction map (extents with current and potential future settlement overlay):
  ![Flood Risk Map](/flood_risk_map.png)
 - Below we have manually added callouts to make it easier to spot areas that could be potential flood risks under current and future settlement growth scenarios.
  ![Flood Risk Map with callout sections](/flood_risk_map_with_callout_areas.png)
+
+- Evacuation Sites
+    - Find safe areas: It reads a flood map and identifies dry land by converting safe (non-flooded) areas into polygons. split these polygons into 100 individual polygons. 
+    - Check road access: It keeps only those dry areas that are close enough to roads, making sure people can reach them.
+    - Filter by elevation: It removes sites that are too low, keeping only those above a certain elevation to avoid future flooding.
+    - Check proximity to services: It further filters sites to make sure they are near important services like hospitals and parks.
+    - Score sites: It ranks the remaining sites based on how close they are to these services.
+    - Save results: The final list of ideal evacuation sites is saved as a GeoJSON file for use in maps or other tools.
 
 ## Related reading
 - View the [Flood Risk results](/posts/3/flood-risk-results).
