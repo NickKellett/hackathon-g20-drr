@@ -7,14 +7,14 @@ date: 2025-09-04
 
 ## Data
 - [Digital Earth Africa](https://digitalearthafrica.org/en_za/).
-- Sentinel-1 satellite imagery
+- [Sentinel-1 satellite imagery](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/The_Sentinel_missions), European Space Agency (ESA)
 - ESRI Land Use/Land Cover (LULC)
 etc.
 
 ## Software & Tools
 - [Jupyter Notebooks](https://digitalearthafrica.org/en_za/).
 - [QGIS](https://qgis.org/)
-- 
+- [Python](https://www.python.org/)
 - 
 - etc.
 

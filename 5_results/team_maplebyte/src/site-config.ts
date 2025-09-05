@@ -1,7 +1,7 @@
 export const siteConfig = {
   author: 'Team MapleByte for G20 Disaster Risk Reduction Hackathon',
   title: 'Team MapleByte for G20 Disaster Risk Reduction Hackathon',
-  subtitle: 'Vitesse theme for Astro, supports Vue and UnoCSS.',
+  subtitle: 'Team Blog for G20 DRR Hackathon 2025',
   description: 'A team blog describing the work Canadian Team MapleByte undertook during the G20 Disaster Risk Reduction (DRR) Hackathon running September 2-5 2025.',
   image: {
     src: '/hero.jpg',
