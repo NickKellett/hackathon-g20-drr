@@ -6,7 +6,15 @@ date: 2025-09-05
 ---
 
 ## Results
+
+### Area of Interest
+- We selected an informal settlement in Durban, South Africa. 
+- We used this as our baseline because an excellent article, "A Perfect Storm" published in the Outlier gave us a wealth of insight into the suffering and issues caused by a historic April 2022 flood. 
+- We could therefore compare our research efforts and findings against this real world example, in the hopes that future refinements of our results might one day help people living in informal settlements and affected by flooding - like the residents of Quarry Road area.
+
 ### Detected current settlements
+- Produced binary maps of settlements using Sentinel-2 imagery over Durban, South Africa.
+- Developed change maps of settlements comparing the maps from previous years to identify areas where there were settlement gains, losses, or no changes.
 
 ### Predicted future growth
 
