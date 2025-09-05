@@ -22,6 +22,7 @@ date: 2025-09-05
 ![Hotspot probability map for 2022-2025](/growth_hotspot_probability_map_2022_to_2025.png)
 - The heat map is a good way to summarize the growth areas spatially. 
 - It shows areas with consistent settlement expansion, the brighter the color, the higher the probability of growth. Notice the river also shows up, that is because of the 2022 flood event, which altered its spectral signature and got picked up as change. This highlights how sensitive the analysis is to environmental events.
+![Heat map for projected growth](/settlement_growth_heat_map.png)
 - We built a slope mask (restricted slopes >30°) and combined it with the water mask from MNDWI. The result is our final constraint layer to feed into MOLUSCE showing only areas potentially suitable for settlement growth.
 BLUE marks an area available for settlement and RED shows the presence of geographic constraints that would likely prevent settlement. 
 - Note this does not incorporate any private or government land or other land use constraints.

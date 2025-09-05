@@ -13,7 +13,8 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
 - Here is a hotspot probability map for informal settlement growth generated for 2022–2025. We did not include the preceding years because their changes were minimal. 
 ![Hotspot probability map for 2022-2025](/growth_hotspot_probability_map_2022_to_2025.png)
 - The heat map is a good way to summarize the growth areas spatially. 
-- It shows areas with consistent settlement expansion, the brighter the color, the higher the probability of growth. Notice the river also shows up, that is because of the 2022 flood event, which altered its spectral signature and got picked up as change. This highlights how sensitive the analysis is to environmental events. 
+- It shows areas with consistent settlement expansion, the brighter the color, the higher the probability of growth. Notice the river also shows up, that is because of the 2022 flood event, which altered its spectral signature and got picked up as change. This highlights how sensitive the analysis is to environmental events.
+![Heat map for projected growth](/settlement_growth_heat_map.png)
 - Growth Forecast Scenarios:
     - *Flood-aware (Scenario A)*: captures the disruption; useful to show what happens if floods continue to shape expansion.
     - *Flood-free (Scenario B)*: removes the anomaly; useful to show the "natural" growth path without disasters.
