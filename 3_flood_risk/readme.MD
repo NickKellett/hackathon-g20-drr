@@ -1,6 +1,10 @@
+# Workstream 3_Flood Risk
+## Background. 
+
+This notebook has been created for G20 DRR Hackathon for Team MapleByte (Canada). This works towards the 'Flood Risk' portion of the challenge.  
+Project/team site: [g20hack-maplebyte.climatechange.ca](https://g20hack-maplebyte.climatechange.ca/)
+
 ## Flood Mapping
-
-
 For flood mapping we've broken the task into two components;
 1. Current flood and short-term flood extents
 2. Longer term flood
@@ -18,7 +22,3 @@ To run this notebook, you will need:
 4. GeoTIF of MWDWI
 
 
-## Background. 
-
-This notebook has been created for G20 DRR Hackathon for Team MapleByte (Canada). This works towards the 'Flood Risk' portion of the challenge.  
-Project/team site: [g20hack-maplebyte.climatechange.ca](https://g20hack-maplebyte.climatechange.ca/)

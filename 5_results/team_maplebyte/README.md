@@ -1,5 +1,8 @@
-# Vitesse theme for Astro
+# Workstream 5_Team Blog
+## Background. 
+This blog has been created to track the activities and results of Team MapleByte (Canada) in the G20 DRR Hackathon. You can view the live version at [g20hack-maplebyte.climatechange.ca](https://g20hack-maplebyte.climatechange.ca/)
 
+## Vitesse theme for Astro
 A minimal, SEO-friendly portfolio and blog theme for Astro, supports Vue and UnoCSS.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0624323a-339f-48da-8b28-03037d664c40/deploy-status)](https://app.netlify.com/sites/astro-theme-vitesse/deploys)
