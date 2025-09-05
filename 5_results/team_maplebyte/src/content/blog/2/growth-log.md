@@ -54,8 +54,9 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
 - We need the boundary data as well
 - We used the DTM provided to generate the slope and also the MNDWI for water mask
 - We tried generating rasters from road shapefiles but the min max values we are getting getting ( 1 and 1)  might interfere with the distance generation. 
-- We built a slope mask (restricted slopes >30°) and combined it with the water mask from MNDWI. The result is our final constraint layer to feed into MOLUSCE showing only areas suitable for settlement growth.
-BLUE, good for settlement and RED shows the constraint.
+- We built a slope mask (restricted slopes >30°) and combined it with the water mask from MNDWI. The result is our final constraint layer to feed into MOLUSCE showing only areas potentially suitable for settlement growth.
+BLUE marks an area available for settlement and RED shows the presence of geographic constraints that would likely prevent settlement. 
+- Note this does not incorporate any private or government land or other land use constraints.
 ![Growth Constraint Map](/settlement_growth_constraints.png)
 - We generated three outputs which give us both the past trend and the future projection. The range is between 1 and -1 so they can be reclassified or symbolized to show gain, no gain and then loss:
     - The 2019 → 2025 change map, showing how settlements actually evolved.

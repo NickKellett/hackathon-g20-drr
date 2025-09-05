@@ -9,7 +9,7 @@ date: 2025-09-05
 
 ### Area of Interest
 - We selected an informal settlement near Quarry Road in Durban, South Africa. 
-- We used this as our baseline because an excellent article, "A Perfect Storm" published in the Outlier gave us a wealth of insight into the suffering and issues caused by a historic April 2022 flood. 
+- We used this as our baseline because an excellent article, "A Perfect Storm" published in the Outlier gave us great insight into the suffering and issues caused by a historic April 2022 flood. 
 - We could therefore compare our research efforts and findings against this real world example, in the hopes that future refinements of our results might one day help people living in informal settlements and affected by flooding - like the residents of Quarry Road area.
 
 ### Detected current settlements
@@ -22,8 +22,9 @@ date: 2025-09-05
 ![Hotspot probability map for 2022-2025](/growth_hotspot_probability_map_2022_to_2025.png)
 - The heat map is a good way to summarize the growth areas spatially. 
 - It shows areas with consistent settlement expansion, the brighter the color, the higher the probability of growth. Notice the river also shows up, that is because of the 2022 flood event, which altered its spectral signature and got picked up as change. This highlights how sensitive the analysis is to environmental events.
-- We built a slope mask (restricted slopes >30°) and combined it with the water mask from MNDWI. The result is our final constraint layer to feed into MOLUSCE showing only areas suitable for settlement growth.
-BLUE, good for settlement and RED shows the constraint.
+- We built a slope mask (restricted slopes >30°) and combined it with the water mask from MNDWI. The result is our final constraint layer to feed into MOLUSCE showing only areas potentially suitable for settlement growth.
+BLUE marks an area available for settlement and RED shows the presence of geographic constraints that would likely prevent settlement. 
+- Note this does not incorporate any private or government land or other land use constraints.
 ![Growth Constraint Map](/settlement_growth_constraints.png)
 - Produced three outputs:
     - The 2019 → 2025 change map, showing how settlements actually evolved.
@@ -31,12 +32,15 @@ BLUE, good for settlement and RED shows the constraint.
     - The 2025 → 2028 change map, which is our forecasted growth.
 
 ### Identified flood extents and risks
+- Generated a Hydro condition elevation model script which prepares a digital elevation model (DEM) for hydrological analysis and generates a Height Above Nearest Drainage (HAND) raster
+- Identified high level exposure by automating the extraction of key infrastructure and greenspace data from [OpenStreetMap (OSM)](https://www.openstreetmap.org) for our AOI.
+- We then processed geospatial raster data to help map flood risk using satellite and elevation data. The script takes satellite and elevation data, identifies current and potential future flooded areas, and saves new raster files showing these flood extents. It also outputs statistics about the flooded areas for further analysis
+- Identify suitable evacuation sites, by finding safe areas (non flooded/dry land), checking road access, filtering by elevation, checking proximity to important services like hospitals. We then ranked the filtered list of safe sites based on how close they are to these services. The final list of ideal evacuation sites is saved as a GeoJSON file for use in maps or other tools. 
 
 ### View Short Term Flood Extents Map
 - Short Term Flood extents prediction map:
 ![Flood Risk Short Term Prediction Map](/flood_risk_short_term_map.png)
  [Interactive HTML Version - 285 kb](/flood_risk_short_term_map.html)
- 
 
 ### View Longer Term Flood Predictions Map
 - Longer Term Flood extents prediction map (to 2028), with current and predicted future settlement:

@@ -9,6 +9,7 @@ date: 2025-09-04
 - [Digital Earth Africa](https://digitalearthafrica.org/en_za/).
 - [Sentinel-2 satellite imagery](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/The_Sentinel_missions), European Space Agency (ESA)
 - ESRI Land Use/Land Cover (LULC)
+- [OpenStreetMap (OSM) data](https://www.openstreetmap.org)
 
 etc.
 
