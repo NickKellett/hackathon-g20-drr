@@ -3,6 +3,9 @@
 
 This notebook has been created for G20 DRR Hackathon for Team MapleByte (Canada). This works towards the 'Flood Risk' portion of the challenge.  
 Project/team site: [g20hack-maplebyte.climatechange.ca](https://g20hack-maplebyte.climatechange.ca/)
+*** please note these outputs are simulations and do not represent real results - but instead represent an approach that could be explored to simulate/estimate flooding extents. 
+*** the results have not been validated or confirmed. 
+
 
 ## Flood Mapping
 For flood mapping we've broken the task into two components;
