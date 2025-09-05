@@ -23,4 +23,4 @@ Other recent floods: May  22 2022; 17 to 21 Nov 2020; 8 to 12 March 201
 - refined binary maps by applying water layer from the ESRI landcover maps (ESRI lulc maps are available only until 2023, so we applied 2023 lulc to 2024 and 2025 binary maps).
 
 ## Related reading
-- View the [Settlement Detection results](/posts/1/detection-results).
+- View the [Settlement Detection detailed results](/posts/1/detection-results).

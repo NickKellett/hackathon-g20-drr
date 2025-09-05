@@ -1,5 +1,5 @@
 ---
-title: Stream 2 Settlement Growth Prediction - Results
+title: Stream 2 Settlement Growth Prediction - Detailed Results
 description: Settlement Growth Prediction results
 
 date: 2025-09-05

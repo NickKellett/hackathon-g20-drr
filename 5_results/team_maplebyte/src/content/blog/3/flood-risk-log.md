@@ -47,4 +47,4 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
     - Save results: The final list of ideal evacuation sites is saved as a GeoJSON file for use in maps or other tools.
 
 ## Related reading
-- View the [Flood Risk results](/posts/3/flood-risk-results).
+- View the [Flood Risk detailed results](/posts/3/flood-risk-results).

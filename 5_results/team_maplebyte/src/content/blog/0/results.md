@@ -17,19 +17,19 @@ date: 2025-09-05
 ### View Short Term Flood Extents Map
 - Short Term Flood extents prediction map:
 ![Flood Risk Short Term Prediction Map](/flood_risk_short_term_map.png)
- [Interactive HTML Version](/flood_risk_short_term_map.html)
+ [Interactive HTML Version - 285 kb](/flood_risk_short_term_map.html)
  
 
 ### View Longer Term Flood Predictions Map
 - Longer Term Flood extents prediction map (to 2028), with current and predicted future settlement:
 ![Flood Risk Long Term Prediction Map with Settlement](/flood_risk_long_term_map.png)
- [Interactive HTML Version](/flood_risk_long_term_map.html)
- 
+[Interactive HTML Version](/flood_risk_long_term_map.html) __Note__: Large file! 92.2MB
+
 ### Detailed Results by Workstream
-- View the [Settlement Detection results](/posts/1/detection-results).
-- View the [Settlement Growth Prediction results](/posts/2/growth-results).
-- View the [Flood Risk results](/posts/3/flood-risk-results).
-- View the [Policy Awareness & Outreach results](/posts/4/policy-awareness-outreach-results).
+- View the [Settlement Detection detailed results](/posts/1/detection-results).
+- View the [Settlement Growth Prediction detailed results](/posts/2/growth-results).
+- View the [Flood Risk detailed results](/posts/3/flood-risk-results).
+- View the [Policy Awareness & Outreach detailed results](/posts/4/policy-awareness-outreach-results).
 
 
 ## Related reading

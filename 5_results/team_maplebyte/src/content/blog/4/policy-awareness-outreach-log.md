@@ -18,4 +18,4 @@ Apply policy-relevant reporting and guidance, awareness and outreach including e
 - Use AI translation engine to sample translate content into non-English languages
 
 ## Related reading
-- View the [Policy Awareness & Outreach results](/posts/4/policy-awareness-outreach-results).
+- View the [Policy Awareness & Outreach detailed results](/posts/4/policy-awareness-outreach-results).

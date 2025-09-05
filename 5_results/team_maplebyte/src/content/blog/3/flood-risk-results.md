@@ -92,13 +92,13 @@ Steps include:
 ## View Short Term Flood Extents Map
 - Short Term Flood extents prediction map:
 ![Flood Risk Short Term Prediction Map](/flood_risk_short_term_map.png)
- [Interactive HTML Version](/flood_risk_short_term_map.html)
+ [Interactive HTML Version - 285 kb](/flood_risk_short_term_map.html)
  
 
 ## View Longer Term Flood Predictions Map
 - Longer Term Flood extents prediction map (to 2028), with current and predicted future settlement:
 ![Flood Risk Long Term Prediction Map with Settlement](/flood_risk_long_term_map.png)
- [Interactive HTML Version](/flood_risk_long_term_map.html)
+[Interactive HTML Version](/flood_risk_long_term_map.html) __Note__: Large file! 92.2MB
  
 ## Potential Flood Risk Areas
 - Below we have manually added callouts to make it easier to spot areas that could be potential flood risks under current and future settlement growth scenarios.

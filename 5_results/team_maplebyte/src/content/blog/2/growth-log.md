@@ -64,4 +64,4 @@ BLUE, good for settlement and RED shows the constraint.
 
 
 ## Related reading
-- View the [Settlement Growth Prediction results](/posts/2/growth-results).
+- View the [Settlement Growth Prediction detailed results](/posts/2/growth-results).

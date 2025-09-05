@@ -7,8 +7,8 @@ date: 2025-09-04
 
 ## Data
 - [Digital Earth Africa](https://digitalearthafrica.org/en_za/).
-- Sentinel
-- ESRI LULC
+- Sentinel-1 satellite imagery
+- ESRI Land Use/Land Cover (LULC)
 etc.
 
 ## Software & Tools

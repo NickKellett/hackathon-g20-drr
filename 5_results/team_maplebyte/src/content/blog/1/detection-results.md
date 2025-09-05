@@ -1,5 +1,5 @@
 ---
-title: Stream 1 Settlement Detection - Results
+title: Stream 1 Settlement Detection - Detailed Results
 description: Settlement Detection results
 
 date: 2025-09-05
