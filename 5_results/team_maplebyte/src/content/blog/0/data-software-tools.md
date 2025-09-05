@@ -8,17 +8,15 @@ date: 2025-09-04
 ## Data
 - [Digital Earth Africa](https://digitalearthafrica.org/en_za/).
 - [Sentinel-2 satellite imagery](https://www.esa.int/Applications/Observing_the_Earth/Copernicus/The_Sentinel_missions), European Space Agency (ESA)
+- [NASA/USGS Landsat satellite imagery](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.usgs.gov/landsat-missions)
 - ESRI Land Use/Land Cover (LULC)
 - [OpenStreetMap (OSM) data](https://www.openstreetmap.org)
-
-etc.
 
 ## Software & Tools
 - [Jupyter Notebooks](https://digitalearthafrica.org/en_za/).
 - [QGIS](https://qgis.org/)
 - [Python](https://www.python.org/)
 - Urban Change Detection script on DEA
-- etc.
 
 ## Website Hosting
 - [Astro](https://astro.build/) with markdown to build the websites
