@@ -18,28 +18,45 @@ def gdf_for_folium(gdf):
             gdf[col] = gdf[col].astype(str)
     return gdf
 
-def add_raster_layer(m, raster_path, color, layer_name, opacity=0.6, show=True):
-    """Add a raster as polygons to a Folium map."""
+from folium.raster_layers import ImageOverlay
+import matplotlib.pyplot as plt
+
+
+def add_raster_layer(m, raster_path, colormap, layer_name, opacity=0.6, show=True):
+    """Add a raster to a Folium map as an image overlay, masking nodata completely transparent."""
     with rasterio.open(raster_path) as src:
-        data = src.read(1)
-        data = np.where(data == src.nodata, np.nan, data)
-        transform = src.transform
+        data = src.read(1).astype(float)
 
-        fg = FeatureGroup(name=layer_name, show=show)
+        # Mask nodata
+        nodata_mask = (data == src.nodata)
+        data[nodata_mask] = np.nan
 
-        shapes = features.shapes(data, mask=~np.isnan(data), transform=transform)
-        for geom, val in shapes:
-            folium.GeoJson(
-                geom,
-                style_function=lambda feature, val=val: {
-                    "fillColor": color,
-                    "color": color,
-                    "weight": 0,
-                    "fillOpacity": opacity,
-                },
-            ).add_to(fg)
+        # Normalize values
+        vmin, vmax = np.nanmin(data), np.nanmax(data)
+        if vmin == vmax:
+            normed = np.zeros_like(data)
+        else:
+            normed = (data - vmin) / (vmax - vmin)
 
-        fg.add_to(m)
+        # Apply matplotlib colormap
+        cmap = plt.get_cmap(colormap)
+        rgba_img = cmap(normed)  # shape (H, W, 4)
+
+        # Force nodata pixels fully transparent
+        rgba_img[nodata_mask, 3] = 0.0  
+
+        # Bounds for overlay
+        bounds = [[src.bounds.bottom, src.bounds.left],
+                  [src.bounds.top, src.bounds.right]]
+
+        # Add to folium
+        ImageOverlay(
+            image=rgba_img,
+            bounds=bounds,
+            opacity=opacity,
+            name=layer_name,
+            show=show
+        ).add_to(m)
 
 def add_geojson_layer(m, geojson_path, layer_name, color="#3388ff", point_symbol=None, show=True):
     gdf = gpd.read_file(geojson_path)
@@ -93,9 +110,8 @@ def create_flood_risk_map(config):
     m = Map(location=map_center, zoom_start=12, tiles="CartoDB positron")
 
     # Add raster layers
-    add_raster_layer(m, depth_raster_current, "#e63946", "Current Flood Extent", opacity=0.5)
-    add_raster_layer(m, depth_raster_future, "#3331bd", "Short Term Future Flood", opacity=0.5)
-
+    add_raster_layer(m, depth_raster_current, "Reds", "Current Flood Extent", opacity=0.5)
+    add_raster_layer(m, depth_raster_future, "Blues", "Short Term Future Flood", opacity=0.5)
     # Add vector layers
     
     #add_geojson_layer(m, streets_geojson, "Streets", color="black", show=True)
