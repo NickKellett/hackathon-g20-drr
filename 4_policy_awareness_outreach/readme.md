@@ -1,14 +1,6 @@
----
-title: Stream 4 Policy, Awareness & Outreach - Results
-description: Policy, Awareness & Outreach results
-duration: 5min
-date: 2025-09-02
----
+# Workstream 4_Policy, Communications and Outreach
+=============================
 
-## Workstream Goal
-Apply policy-relevant reporting and guidance, awareness and outreach including early warning system information, disaster risk reduction, adaptation and resilience to relevant stakeholders including policy makers, public safety, and settlement community members.
-
-## Results
 ## Audience Types
 Due to hackathon time constraints we have only considered two main groups of stakeholders:
 1. __"Community Leaders"__ - authoritative members of the public residing in the informal settlements, who are or may be affected by disasters such as flooding
@@ -27,6 +19,3 @@ The code and content for the websites can be found inside the relevant subfolder
 You can view a live version of the websites here:
 1. ["Community Leaders" live microsite](https://g20hack-user-resident.climatechange.ca/). We partially translated the content into isiZulu in recognition that in our use case the Durban population speaks English and isiZulu. You can toggle between the languages on the top righthand corner.
 2. ["Policy Makers" live microsite](https://g20hack-user-policy.climatechange.ca/)
-
-## Related reading
-- View the [Policy, Awareness & Outreach Hackathon Activity Log](/posts/4/policy-awareness-outreach-log).

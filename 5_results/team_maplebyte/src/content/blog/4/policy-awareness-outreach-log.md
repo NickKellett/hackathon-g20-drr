@@ -10,6 +10,8 @@ Apply policy-relevant reporting and guidance, awareness and outreach including e
 
 ## Approach
 - Identify stakeholder audiences
+- Create policy decision trees
+- Derive content from decision steps and processes
 - Create websites for each primary stakeholder audience
 - Select static web publishing templates which offer simple authoring tools to focus efforts on communication messages rather than flashy appearance
 - Sample multilingual content, since Durban is the AOI supported several languages including English, Afrikaans, Zulu.

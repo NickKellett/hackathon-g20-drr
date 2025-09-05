@@ -1,4 +1,5 @@
-Binary maps of settlements
+# Workstream 1_Settlement Detection
+# Binary maps of settlements
 =============================
 
 The binary maps of settlements were generated using Sentinel-2 satellite imagery available on the Digital Earth Africa (DEA) platform and the Urban Change Detection script, also available on the DEA.

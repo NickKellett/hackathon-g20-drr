@@ -86,6 +86,8 @@ Steps include:
 - Check proximity to services: It further filters sites to make sure they are near important services like hospitals and parks.
 - Score sites: It ranks the remaining sites based on how close they are to these services.
 - Save results: The final list of ideal evacuation sites is saved as a GeoJSON file for use in maps or other tools.
+ ![Parks / Facilities / Evacuation Spots Map](/flood_parks_facilities_evacuation_layer_map.png)
+
 
 ## View Map
 - Flood extents prediction map:
