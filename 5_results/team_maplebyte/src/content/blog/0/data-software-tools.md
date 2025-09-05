@@ -1,8 +1,8 @@
 ---
 title: Data & Software Tools
 description: What data and tools our team used.
-duration: 5min
-date: 2025-09-02
+
+date: 2025-09-04
 ---
 
 ## Data

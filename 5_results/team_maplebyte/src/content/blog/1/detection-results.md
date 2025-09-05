@@ -1,8 +1,8 @@
 ---
 title: Stream 1 Settlement Detection - Results
 description: Settlement Detection results
-duration: 5min
-date: 2025-09-02
+
+date: 2025-09-05
 ---
 
 ## Workstream Goal
@@ -36,3 +36,4 @@ such as GeoMAD, Sentinel 2, urban change detection as described in [DEA Sandbox]
 
 ## Related reading
 - View the [Settlement Detection Hackathon Activity Log](/posts/1/detection-log).
+- View the [overall results](/posts/0/results).

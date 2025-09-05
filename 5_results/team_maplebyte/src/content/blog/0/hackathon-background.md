@@ -1,8 +1,8 @@
 ---
 title: G20 DRR Hackathon Background
 description: What the hackathon is all about
-duration: 5min
-date: 2025-09-03
+
+date: 2025-09-04
 ---
 
 ## G20 Disaster Risk Reduction (DRR) Hackathon

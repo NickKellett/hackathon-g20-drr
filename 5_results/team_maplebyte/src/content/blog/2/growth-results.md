@@ -1,8 +1,8 @@
 ---
 title: Stream 2 Settlement Growth Prediction - Results
 description: Settlement Growth Prediction results
-duration: 5min
-date: 2025-09-02
+
+date: 2025-09-05
 ---
 
 ## Workstream Goal
@@ -31,3 +31,4 @@ BLUE, good for settlement and RED shows the constraint.
 
 ## Related reading
 - View the [Settlement Growth Hackathon Activity Log](/posts/2/growth-log).
+- View the [overall results](/posts/0/results).

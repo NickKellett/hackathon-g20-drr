@@ -1,8 +1,8 @@
 ---
 title: Stream 3 Flood Risk Prediction - Results
 description: Flood risk prediction results
-duration: 5min
-date: 2025-09-02
+
+date: 2025-09-05
 ---
 
 ## Workstream Goal
@@ -89,13 +89,21 @@ Steps include:
  ![Parks / Facilities / Evacuation Spots Map](/flood_parks_facilities_evacuation_layer_map.png)
 
 
-## View Map
-- Flood extents prediction map:
- ![Flood Extents Map](/flood_extents_layer_map.png)
-- Flood risk prediction map (extents with current and potential future settlement overlay):
- ![Flood Risk Map](/flood_risk_map.png)
+## View Short Term Flood Extents Map
+- Short Term Flood extents prediction map:
+![Flood Risk Short Term Prediction Map](/flood_risk_short_term_map.png)
+ [Interactive HTML Version](/flood_risk_short_term_map.html)
+ 
+
+## View Longer Term Flood Predictions Map
+- Longer Term Flood extents prediction map (to 2028), with current and predicted future settlement:
+![Flood Risk Long Term Prediction Map with Settlement](/flood_risk_long_term_map.png)
+ [Interactive HTML Version](/flood_risk_long_term_map.html)
+ 
+## Potential Flood Risk Areas
 - Below we have manually added callouts to make it easier to spot areas that could be potential flood risks under current and future settlement growth scenarios.
  ![Flood Risk Map with callout sections](/flood_risk_map_with_callout_areas.png)
 
 ## Related reading
 - View the [Flood Risk Hackathon Activity Log](/posts/3/flood-risk-log).
+- View the [overall results](/posts/0/results).

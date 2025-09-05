@@ -1,13 +1,31 @@
 ---
 title: Our Team Results
 description: The final output our team produced.
-duration: 5min
-date: 2025-09-01
+
+date: 2025-09-05
 ---
 
 ## Results
+### Detected current settlements
 
+### Predicted future growth
 
+### Identified flood extents and risks
+
+### Determined Relevant Policies and Communications for Community Leaders and Policy Makers
+
+### View Short Term Flood Extents Map
+- Short Term Flood extents prediction map:
+![Flood Risk Short Term Prediction Map](/flood_risk_short_term_map.png)
+ [Interactive HTML Version](/flood_risk_short_term_map.html)
+ 
+
+### View Longer Term Flood Predictions Map
+- Longer Term Flood extents prediction map (to 2028), with current and predicted future settlement:
+![Flood Risk Long Term Prediction Map with Settlement](/flood_risk_long_term_map.png)
+ [Interactive HTML Version](/flood_risk_long_term_map.html)
+ 
+### Detailed Results by Workstream
 - View the [Settlement Detection results](/posts/1/detection-results).
 - View the [Settlement Growth Prediction results](/posts/2/growth-results).
 - View the [Flood Risk results](/posts/3/flood-risk-results).

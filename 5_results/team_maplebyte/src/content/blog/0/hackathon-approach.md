@@ -1,8 +1,8 @@
 ---
 title: Our Team Hackathon Approach
 description: How we approached the challenge, what we did, and what the activities and interim results were.
-duration: 5min
-date: 2025-09-02
+
+date: 2025-09-04
 ---
 
 ### Our Team Formation

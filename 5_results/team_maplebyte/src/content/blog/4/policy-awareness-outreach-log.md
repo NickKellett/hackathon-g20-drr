@@ -1,8 +1,8 @@
 ---
 title: Stream 4 Policy, Awareness & Outreach - Hackathon Activity Log
 description: Discusses the policies, process, tools, outputs, and the challenges and issues we faced in this workstream.
-duration: 5min
-date: 2025-09-02
+
+date: 2025-09-04
 ---
 
 ## Workstream Goal

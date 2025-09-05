@@ -1,8 +1,8 @@
 ---
 title: Stream 3 Flood Risk Prediction - Hackathon Activity Log
 description: Flood risk predictions for identified or predicted settlements. Describes the process, tools, outputs, and the challenges and issues we faced in this workstream.
-duration: 5min
-date: 2025-09-02
+
+date: 2025-09-04
 ---
 
 ## Workstream Goal

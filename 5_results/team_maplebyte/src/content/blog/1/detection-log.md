@@ -1,8 +1,8 @@
 ---
 title: Stream 1 Settlement Detection - Hackathon Activity Log
 description: Settlement Detection process, tools, outputs, and the challenges and issues we faced in this workstream.
-duration: 5min
-date: 2025-09-02
+
+date: 2025-09-04
 ---
 
 ## Workstream Goal

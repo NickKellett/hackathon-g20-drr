@@ -1,8 +1,8 @@
 ---
 title: Stream 4 Policy, Awareness & Outreach - Results
 description: Policy, Awareness & Outreach results
-duration: 5min
-date: 2025-09-02
+
+date: 2025-09-05
 ---
 
 ## Workstream Goal
@@ -30,3 +30,4 @@ You can view a live version of the websites here:
 
 ## Related reading
 - View the [Policy, Awareness & Outreach Hackathon Activity Log](/posts/4/policy-awareness-outreach-log).
+- View the [overall results](/posts/0/results).
