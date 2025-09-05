@@ -1,4 +1,6 @@
 # Workstream 3_Flood Risk
+This folder contains the core modules and scripts for flood risk analysis. The workflow is organized into several subfolders, each responsible for a specific stage in the analysis pipeline.
+
 ## Background. 
 
 This notebook has been created for G20 DRR Hackathon for Team MapleByte (Canada). This works towards the 'Flood Risk' portion of the challenge.  
@@ -25,3 +27,40 @@ To run this notebook, you will need:
 4. GeoTIF of MWDWI
 
 
+
+## Workflow Overview
+
+1. **dtm/**
+   - Contains Digital Terrain Model (DTM) data and related utilities.
+   - Provides the foundational elevation data required for flood modeling.
+
+2. **dtmprocessing/**
+   - Processes raw DTM data to generate hydrologically conditioned surfaces and other derived products.
+   - Typical steps include filling sinks, generating flow direction, and preparing data for further analysis.
+
+3. **exposure/**
+   - Identifies and quantifies assets, populations, or infrastructure exposed to flood risk.
+   - Integrates spatial data (e.g., buildings, roads) with processed DTM outputs.
+
+4. **risk/**
+   - Performs flood risk assessment by combining hazard (from DTM/processing) and exposure data.
+   - Calculates risk metrics, such as expected losses or affected areas.
+
+5. **visualize/**
+   - Provides tools and scripts for visualizing the results of the flood risk analysis.
+   - Generates maps, charts, and other outputs for reporting and decision-making.
+
+## Additional Files
+- `FloodMapping.ipynb`: Example Jupyter notebook demonstrating the workflow and analysis steps.
+- `requirements.txt`: Lists required Python packages for running the analysis.
+
+## Getting Started
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Follow the workflow from DTM preparation to visualization, using the scripts and modules in each subfolder.
+3. Refer to `FloodMapping.ipynb` for a step-by-step example.
+
+---
+For more details on each module, see the README files (if available) in the respective subfolders.
