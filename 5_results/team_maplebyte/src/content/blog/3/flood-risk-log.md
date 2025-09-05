@@ -30,7 +30,12 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
     3. Sentinel-1 SAR data (C-band, 10 m resolution, ~6–12 days revisit) from 2022-04-05 to 2022-04-17, acquired from the DEA sandbox using its tools.
     - pushed data to https://github.com/NickKellett/hackathon-g20-drr/tree/main/3_flood_risk/data_for_analysis 
  - Pushed new code and html maps to github. The data created from the scripts is also uploaded: data outputs are in the Durban folder, code in src. 
+- Flood extents prediction map:
+ ![Flood Extents Map](/flood_extents_layer_map.png)
+- Flood risk prediction map (extents with current and potential future settlement overlay):
  ![Flood Risk Map](/flood_risk_map.png)
+- Below we have manually added callouts to make it easier to spot areas that could be potential flood risks under current and future settlement growth scenarios.
+ ![Flood Risk Map with callout sections](/flood_risk_map_with_callout_areas.png)
 
 ## Related reading
 - View the [Flood Risk results](/posts/3/flood-risk-results).

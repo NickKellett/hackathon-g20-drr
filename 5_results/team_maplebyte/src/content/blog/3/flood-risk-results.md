@@ -19,9 +19,13 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
 - We then added an artificial adjustment to estimate short-term potential flood. e.g. in the next 24hrs how might the water level change.
 - We then explored vector data from OSM, streets, emergency facilities (hospital, police, firestations, etc.) parks in combination with the flood extents to estimate where probable evacuation points could be for citizens in/near flood zones.*for the current and short-term future flood scenarios, using near-by river gauges, synthetic rating curves or manual estimates could aid in creating a more realistic extent map.
 - In Scenario 2, we made use of the HAND Model again, setting differnt thresholds for potential future flood extents. These again are hypothetical, but could represent changing flood zones due to climate change, increased urbanization, etc. This is then overlaid by the urban pixels identified in task1, and the estimated growth from task 2.
-- Flood risk prediction map:
+- Flood extents prediction map:
+ ![Flood Extents Map](/flood_extents_layer_map.png)
+- Flood risk prediction map (extents with current and potential future settlement overlay):
  ![Flood Risk Map](/flood_risk_map.png)
-
+- Below we have manually added callouts to make it easier to spot areas that could be potential flood risks under current and future settlement growth scenarios.
+ ![Flood Risk Map with callout sections](/flood_risk_map_with_callout_areas.png)
+ 
 ## Running the Notebook
 To run the *FloodMapping.ipynb* Jupyter notebook in *"\3_flood_risk\src\"* folder, you will need:
 1. A Jupyter notebook server such as Digital Earth Africa
