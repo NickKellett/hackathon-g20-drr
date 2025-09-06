@@ -54,12 +54,12 @@ function getYear(date: Date | string | number) {
       </div>
       <a text-lg lh-tight nav-link flex="~ col gap-3" :aria-label="post.data.title" :target="getTarget(post)" :href="getHref(post)"
         style="cursor: pointer; transition: background 0.2s;"
-        class="bg-[#4b6b50]/10 hover:bg-[#6fcf97]/30 hover:text-2xl hover:shadow-md rounded p-4 block"
+        class="group bg-[#4b6b50]/10 hover:bg-[#6fcf97]/30 hover:text-2xl hover:shadow-md rounded p-4 block"
       >
         <div flex="~ col md:row gap-3 md:items-center">
           <div flex="~ gap-3 items-center text-wrap">
             <span lh-normal>
-              <i v-if="post.data.draft" text-base vertical-mid i-ri-draft-line />
+              <i v-if="post.data.draft" text-base vertical-mid i-ri-draft-line  />
               {{ post.data.title }}
             </span>
           </div>
@@ -72,7 +72,7 @@ function getYear(date: Date | string | number) {
             <span v-if="post.data.lang && post.data.lang.includes('zh')">· 中文</span>
           </div>
         </div>
-        <div opacity-50 text-sm>{{ post.data.description }}</div>
+        <div opacity-50 text-sm group-hover:text-lg transition-al>{{ post.data.description }}</div>
       </a>
     </li>
   </ul>
