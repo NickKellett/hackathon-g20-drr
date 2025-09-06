@@ -9,11 +9,10 @@ date: 2025-09-05
 Forecast Expansion – Predict development over 1–3 years using imagery and algorithms from [Digital Earth Africa](https://digitalearthafrica.org/en_za/).
 
 ## Results
-- We split the growth forecasts into two scenarios because the 2022 flood was a unique event, it caused a sharp drop in settlement expansion that does not follow the natural trend. If we forced all years into one model, the results would either ignore the flood's impact or distort the forecast with unrealistic negative growth, as we saw in our initial work.
-- Here is a hotspot probability map for informal settlement growth generated for 2022–2025. We did not include the preceding years because their changes were minimal. 
+- We split the growth forecasts into two scenarios because the 2022 flood was a unique event, it caused a sharp drop in settlement expansion that does not follow the natural trend. If we forced all years into one model, the results would either ignore the flood's impact or distort the forecast with unrealistic negative growth.
+- Here is a hotspot probability map for informal settlement growth generated for 2022–2025.
 ![Hotspot probability map for 2022-2025](/growth_hotspot_probability_map_2022_to_2025.png)
-- The heat map is a good way to summarize the growth areas spatially. 
-- It shows areas with consistent settlement expansion, the brighter the color, the higher the probability of growth. Notice the river also shows up, that is because of the 2022 flood event, which altered its spectral signature and got picked up as change. This highlights how sensitive the analysis is to environmental events.
+- A heat map is a good way to summarize the growth areas spatially. It shows areas with consistent settlement expansion, the brighter the color, the higher the probability of growth. Notice the river also shows up, that is because of the 2022 flood event, which altered its spectral signature and got picked up as change. This highlights how sensitive the analysis is to environmental events.
 ![Heat map for projected growth](/settlement_growth_heat_map.png)
 - Growth Forecast Scenarios:
     - *Flood-aware (Scenario A)*: captures the disruption; useful to show what happens if floods continue to shape expansion.
@@ -25,11 +24,12 @@ Forecast Expansion – Predict development over 1–3 years using imagery and al
 BLUE marks an area available for settlement and RED shows the presence of geographic constraints that would likely prevent settlement. 
 - Note this does not incorporate any private or government land or other land use constraints.
 ![Growth Constraint Map](/settlement_growth_constraints.png)
-- Produced three outputs:
-    - The 2019 → 2025 change map, showing how settlements actually evolved.
-    - The growth map leading into 2028, capturing expansion over the 3-year window.
-    - The 2025 → 2028 change map, which is our forecasted growth.
-- This gives us both the past trend and the future projection. the range is between 1 and -1 so they can be reclassified or symbolized to show gain, no gain and then loss
+- We can now project informal settlement growth to 2028:
+    - ![Heatmap of Observed Growth (2019–2025) vs Heatmap of Forecasted Growth (2025–2028)](/settlement_growth_story.png)[Heatmap of Observed Growth (2019–2025) vs Heatmap of Forecasted Growth (2025–2028)](/settlement_growth_story.png)
+    - ![Projected Settlement Footprint by 2028](/settlement_growth_projected_footprint_by_2028.png)[Projected Settlement Footprint by 2028](/settlement_growth_projected_footprint_by_2028.png)
+
+## Model Validation
+- Detailed validation numbers are included in [Settlement Growth Model Validation Results.pdf](/settlement_growth_model_validation_results.pdf).
 
 ## Related reading
 - View the [Settlement Growth Hackathon Activity Log](/posts/2/growth-log).

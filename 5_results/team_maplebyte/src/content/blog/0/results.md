@@ -8,7 +8,8 @@ date: 2025-09-05
 ## Results
 
 ### Area of Interest
-- We selected an informal settlement near Quarry Road in Durban, South Africa. 
+- We selected an informal settlement centred on [Quarry Road / N2 Interchange Umgeni in Durban, South Africa](https://maps.app.goo.gl/7fadAFBqjgFrtHAX9). 
+![View on Google Maps](/google_map_quarry_road_aoi.png)
 - We used this as our baseline because an excellent article, "A Perfect Storm" published in the Outlier gave us great insight into the suffering and issues caused by a historic April 2022 flood. 
 - We could therefore compare our research efforts and findings against this real world example, in the hopes that future refinements of our results might one day help people living in informal settlements and affected by flooding - like the residents of Quarry Road area.
 
@@ -27,10 +28,9 @@ date: 2025-09-05
 BLUE marks an area available for settlement and RED shows the presence of geographic constraints that would likely prevent settlement. 
 - Note this does not incorporate any private or government land or other land use constraints.
 ![Growth Constraint Map](/settlement_growth_constraints.png)
-- Produced three outputs:
-    - The 2019 → 2025 change map, showing how settlements actually evolved.
-    - The growth map leading into 2028, capturing expansion over the 3-year window.
-    - The 2025 → 2028 change map, which is our forecasted growth.
+- We can now project informal settlement growth to 2028:
+    - ![Heatmap of Observed Growth (2019–2025) vs Heatmap of Forecasted Growth (2025–2028)](/settlement_growth_story.png)[Heatmap of Observed Growth (2019–2025) vs Heatmap of Forecasted Growth (2025–2028)](/settlement_growth_story.png)
+    - ![Projected Settlement Footprint by 2028](/settlement_growth_projected_footprint_by_2028.png)[Projected Settlement Footprint by 2028](/settlement_growth_projected_footprint_by_2028.png)
 
 ### Identified flood extents and risks
 - Generated a Hydro condition elevation model script which prepares a digital elevation model (DEM) for hydrological analysis and generates a Height Above Nearest Drainage (HAND) raster
@@ -79,8 +79,14 @@ Due to hackathon time constraints we have only considered two main groups of sta
 - View the [Flood Risk detailed results](/posts/3/flood-risk-results).
 - View the [Policy Awareness & Outreach detailed results](/posts/4/policy-awareness-outreach-results).
 
+## In Conclusion
+- The hackathon was a multi-day event and we worked from afar. 
+- We recognize there are inevitably gaps in our understanding, our data, and our models.
+- As well, many people and organizations have no doubt been working hard with the settlement residents since the April 2022 flood to improve matters, and at least some of the conclusions of our work may already be outdated.
+- Having said that, we are glad to have participated in this hackathon, proud of what we accomplished in a short period, and we hope the work is of use to others, in that area and beyond!
 
 ## Related reading
-- View the [G20 DRR Hackathon Background](/posts/0/hackathon-background).
-- View the [Our Team Hackathon Approach](/posts/0/hackathon-approach).
-- View the [Our Team Hackathon Data and Software Tools](/posts/0/data-software-tools).
+- [If we had more time...](/posts/0/more-time).
+- [G20 DRR Hackathon Background](/posts/0/hackathon-background).
+- [Our Team Hackathon Approach](/posts/0/hackathon-approach).
+- [Our Team Hackathon Data and Software Tools](/posts/0/data-software-tools).

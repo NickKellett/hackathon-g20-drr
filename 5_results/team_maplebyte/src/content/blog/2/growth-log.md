@@ -63,7 +63,7 @@ BLUE marks an area available for settlement and RED shows the presence of geogra
     - The 2019 → 2025 change map, showing how settlements actually evolved.
     - The growth map leading into 2028, capturing expansion over the 3-year window.
     - The 2025 → 2028 change map, which is our forecasted growth.
-
+- We created two maps. One has a side by side comparison of the growths and the other one the total estimated growth on ground by 2028. There's also a pdf of of my validation results.
 
 ## Related reading
 - View the [Settlement Growth Prediction detailed results](/posts/2/growth-results).

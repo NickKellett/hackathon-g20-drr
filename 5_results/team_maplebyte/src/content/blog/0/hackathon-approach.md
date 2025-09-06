@@ -40,6 +40,7 @@ A Perfect Storm]
 - This process also made it easier for us to eventually collect our findings together for the team presentation to the hackathon organizers.
 
 ## Related reading
-- View the [G20 DRR Hackathon Background](/posts/0/hackathon-background).
-- View the [Our Team Hackathon Results](/posts/0/results).
-- View the [Our Team Hackathon Data and Software Tools](/posts/0/data-software-tools).
+- [G20 DRR Hackathon Background](/posts/0/hackathon-background).
+- [Our Team Hackathon Results](/posts/0/results).
+- [Our Team Hackathon Data and Software Tools](/posts/0/data-software-tools).
+- [If we had more time...](/posts/0/more-time).
