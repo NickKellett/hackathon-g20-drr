@@ -11,7 +11,7 @@ date: 2025-09-05
 - We selected an informal settlement centred on [Quarry Road / N2 Interchange Umgeni in Durban, South Africa](https://maps.app.goo.gl/7fadAFBqjgFrtHAX9). 
 ![View on Google Maps](/google_map_quarry_road_aoi.png)
 - We used this as our baseline because an excellent article, "A Perfect Storm" published in the Outlier gave us great insight into the suffering and issues caused by a historic April 2022 flood. 
-- We could therefore compare our research efforts and findings against this real world example, in the hopes that future refinements of our results might one day help people living in informal settlements and affected by flooding - like the residents of Quarry Road area.
+- We could therefore compare our research efforts and findings against this real world example, in the hopes that future refinements of our results might one day help people living in informal settlements and affected by flooding - like those near Quarry Road.
 
 ### Detected current settlements
 - Produced binary maps of settlements using Sentinel-2 imagery over Durban, South Africa.
