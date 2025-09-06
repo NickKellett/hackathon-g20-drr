@@ -64,6 +64,7 @@ Due to hackathon time constraints we have only considered two main groups of sta
  ![Government-led Decision Tree](/flood_decision_trees_government_led.drawio.png) 
 - Community-led Decision Tree:
  ![Community-led Decision Tree](/flood_decision_trees_community_led.drawio.png)
+- [View all decision trees in Draw.io format](/G20_drr_flood_decision_trees.drawio)
 
 ### Created Focused Websites to Communicate with Target Audiences
 - These audiences have different needs and so we created two static websites to focus on each type of audience separately. 
