@@ -82,10 +82,6 @@ export const siteConfig = {
         text: 'Team MapleByte G20 DRR Hackathon GitHub Repository',
         href: 'https://github.com/NickKellett/hackathon-g20-drr',
       },
-      {
-        text: 'Astro Theme GitHub Repository',
-        href: 'https://github.com/kieranwv/astro-theme-vitesse',
-      },
     ],
   },
 }
