@@ -36,7 +36,7 @@ Risk Classification – Overlay forecasts with flood hazard maps using imagery a
 - Flood risk prediction map (extents with current and potential future settlement overlay):
  ![Flood Risk Map](/flood_risk_map.png)
 - Below we have manually added callouts to make it easier to spot areas that could be potential flood risks under current and future settlement growth scenarios.
- ![Flood Risk Map with callout sections](/flood_risk_map_with_callout_areas.png)
+ ![Flood Risk Map with callout sections](/flood_risk_map_with_callout_areas.webp)
 
 - Evacuation Sites
     - Find safe areas: It reads a flood map and identifies dry land by converting safe (non-flooded) areas into polygons. split these polygons into 100 individual polygons. 
