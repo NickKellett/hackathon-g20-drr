@@ -22,7 +22,5 @@ description: A guide to improving adaptation & resilience in your community
 
 
  
-
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+## Learn more
+- View the official [South African government Floods response](https://www.gov.za/floods)

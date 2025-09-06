@@ -21,8 +21,5 @@ description: A guide to improving adaptation & resilience in your community
 - Advocate and volunteer for NBS projects: work with city officials to incorporate NBS solutions in surrounding land.
 
 
- 
-
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+## Learn more
+- View the official [South African government Floods response](https://www.gov.za/floods)

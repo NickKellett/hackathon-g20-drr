@@ -10,6 +10,5 @@ We've created a decision tree that helps you prepare for, respond to, and recove
  
  You can learn more about each step in the [flood guide](/en/guides/flood)
 
-## Further reading
-
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+## Learn more
+- View the official [South African government Floods response](https://www.gov.za/floods)

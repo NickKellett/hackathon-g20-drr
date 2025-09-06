@@ -9,6 +9,6 @@ Siyenzile isihlahla sokwenza izinqumo esikusiza ukuthi ulungiselele, uphendule, 
  
 Ungafunda ukuthi ungayivikela kanjani imiphakathi yakho encazelweni yokuphazamiseka kwamanzi: [umhlahlandlela wezikhukhula](/zu/guides/flood)
 
-## Further reading
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+## Learn more
+- View the official [South African government Floods response](https://www.gov.za/floods)
