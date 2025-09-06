@@ -1,6 +1,6 @@
 ---
-title: Community Flood Adaptation & Resilience Guide
-description: A guide to improving adaptation & resilience in your community
+title: Government Flood Adaptation & Resilience Guide for Improving Community Resilience
+description: A guide to improving adaptation & resilience in communities
 ---
 
 

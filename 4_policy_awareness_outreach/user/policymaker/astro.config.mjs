@@ -22,7 +22,7 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Quickstart', slug: 'guides/flood-community' },
+						{ label: 'Quickstart', slug: 'guides/flood-government' },
 					],
 				},
 				{
@@ -41,7 +41,11 @@ export default defineConfig({
 						{ label: 'Risk Reduction Action', link: 'model/risk_reduction_action' },
 						{ label: 'Risk Reduction Question', link: 'model/risk_reduction_question' },
 					]
-				},		
+				},	
+				{
+					label: 'Floods',
+					autogenerate: { directory: 'floods' },
+				},	
 				{
 					label: 'About',
 					items: [				
