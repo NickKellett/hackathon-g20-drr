@@ -42,10 +42,8 @@ Workflow (Step-by-Step)
      
  Results
     1. Observed Growth (2019 → 2025) Limited, scattered growth.Expansion disrupted by the 2022 Durban floods.
-    
     2. Forecasted Growth (2025 → 2028) Strong clustering around Clermont and along transport corridors. Indicates accelerated rebound post-flood.
-
-    3. Full Footprint by 2028 umulative projection of settlements visible on the ground by 2028. Shows significant spread, highlighting pressure on    land and infrastructure.
+    3. Full Footprint by 2028 umulative projection of settlements visible on the ground by 2028. Shows significant spread, highlighting pressure on       land and infrastructure.
  
  Model Validation
 •	Model validation was carried out in MOLUSCE using Kappa, ROC, and accuracy statistics.
