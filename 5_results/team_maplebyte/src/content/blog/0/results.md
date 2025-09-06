@@ -60,11 +60,13 @@ Due to hackathon time constraints we have only considered two main groups of sta
 2. Community-led decisions (with or without government support)
 - These are a work in progress and reflect a high-level understanding of potential relevant policy actions, and are not likely comprehensive nor given the hackathon time constraints can they account for the actual government and collaborating organizations, projects, policies, and procedures.
 - We note that certain government-led policies that could apply - such as those relating to mandatory evacuations and resettlements - are controversial and may well be resisted by informal settlement community leaders and members.
-- Government-led Decision Tree:
- ![Government-led Decision Tree](/flood_decision_trees_government_led.drawio.png) 
-- Community-led Decision Tree:
- ![Community-led Decision Tree](/flood_decision_trees_community_led.drawio.png)
-- [View all decision trees in Draw.io format](/G20_drr_flood_decision_trees.drawio)
+- [Government-led Decision Tree](/4/flood_decision_trees_government_led.drawio.png) :
+ ![Government-led Decision Tree](/4/flood_decision_trees_government_led.drawio.png)
+- [Community-led Decision Tree](/4/flood_decision_trees_community_led.drawio.png):
+ ![Community-led Decision Tree](/4/flood_decision_trees_community_led.drawio.png)
+ 
+- [View all decision trees in Draw.io format](/4/G20_drr_flood_decision_trees.drawio)
+
 
 ### Created Focused Websites to Communicate with Target Audiences
 - These audiences have different needs and so we created two static websites to focus on each type of audience separately. 

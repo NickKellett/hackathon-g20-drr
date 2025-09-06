@@ -24,11 +24,13 @@ Apply policy-relevant reporting and guidance, awareness and outreach including e
 - These are a work in progress and reflect a high-level understanding of potential relevant policy actions
 - We note that certain government-led policies that could apply - such as those relating to mandatory evacuations and resettlements - are controversial and may well be resisted by informal settlement community leaders and members.
 - We are not advocating for or against any particular policy steps or approach, simply indicating via these decision trees how policy actions could apply to the settlement detection, growth, and flood risk prediction models we produced.
-- Government-led Decision Tree:
- ![Government-led Decision Tree](/flood_decision_trees_government_led.drawio.png) (in PNG format)
-- Community-led Decision Tree:
- ![Community-led Decision Tree](/flood_decision_trees_community_led.drawio.png) (in PNG format)
-- [View all decision trees in Draw.io format](/G20_drr_flood_decision_trees.drawio)
+- [Government-led Decision Tree](/4/flood_decision_trees_government_led.drawio.png) :
+ ![Government-led Decision Tree](/4/flood_decision_trees_government_led.drawio.png)
+- [Community-led Decision Tree](/4/flood_decision_trees_community_led.drawio.png):
+ ![Community-led Decision Tree](/4/flood_decision_trees_community_led.drawio.png)
+ 
+- [View all decision trees in Draw.io format](/4/G20_drr_flood_decision_trees.drawio)
+
 
 ## Related reading
 - View the [Policy Awareness & Outreach detailed results](/posts/4/policy-awareness-outreach-results).
