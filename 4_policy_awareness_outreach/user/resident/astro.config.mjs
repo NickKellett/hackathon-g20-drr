@@ -22,23 +22,19 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{
+					label: 'Settlements',
+					autogenerate: { directory: 'settlements' },
+				},
+				{
+					label: 'Floods',
+					autogenerate: { directory: 'floods' },
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Flood Guide', slug: 'guides/flood-community' },
 					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-				{
-					label: 'Settlements',
-					autogenerate: { directory: 's[ettlements' },
-				},
-				{
-					label: 'Risks',
-					autogenerate: { directory: 'risks' },
 				},
 			],
 		}),
