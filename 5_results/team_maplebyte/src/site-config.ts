@@ -4,7 +4,7 @@ export const siteConfig = {
   subtitle: 'Team Blog for G20 DRR Hackathon 2025',
   description: 'A team blog describing the work Canadian Team MapleByte undertook during the G20 Disaster Risk Reduction (DRR) Hackathon running September 2-5 2025.',
   image: {
-    src: '/hero.jpg',
+    src: '/hero.webp',
     alt: 'Website Main Image',
   },
   email: 'climatechange@deploy.solutions',
