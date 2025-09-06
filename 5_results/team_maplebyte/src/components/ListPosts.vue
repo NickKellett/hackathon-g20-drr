@@ -54,7 +54,7 @@ function getYear(date: Date | string | number) {
       </div>
       <a text-lg lh-tight nav-link flex="~ col gap-3" :aria-label="post.data.title" :target="getTarget(post)" :href="getHref(post)"
         style="cursor: pointer; transition: background 0.2s;"
-        class="bg-[#4b6b50]/10 hover:bg-[#6fcf97]/30 hover:shadow-md rounded p-4 block"
+        class="bg-[#4b6b50]/10 hover:bg-[#6fcf97]/30 hover:text-2xl hover:shadow-md rounded p-4 block"
       >
         <div flex="~ col md:row gap-3 md:items-center">
           <div flex="~ gap-3 items-center text-wrap">
