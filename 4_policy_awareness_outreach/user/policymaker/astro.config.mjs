@@ -22,11 +22,11 @@ export default defineConfig({
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Quickstart', slug: 'guides/quickstart' },
+						{ label: 'Quickstart', slug: 'guides/flood-community' },
 					],
 				},
 				{
-					label: 'Model',
+					label: 'Concepts',
 					items: [
 						{ label: 'Overview', slug: 'model/overview' },						
 						{ label: 'community', link: 'model/community' },
@@ -47,22 +47,11 @@ export default defineConfig({
 					items: [				
 						//{ label: 'Deploy Software Solutions', slug: 'about/deploy_software_solutions' },		
 					]
-				},					
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-				{
-					label: 'HTML',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Hello World', link: 'htmltest/helloworld' },
-					],
-				},
+				},	
 				{
 					label: "Related Websites",
 					items: [
-						//{ label: 'FightClimateChange.ca Website', link: 'https://fight.climatechange.ca' },
+						{ label: 'South Africa government floods response', link: 'https://www.gov.za/floods' },
 						//{ label: 'Deploy Solutions Website', link: 'https://www.deploy.solutions' },
 					],
 				}
