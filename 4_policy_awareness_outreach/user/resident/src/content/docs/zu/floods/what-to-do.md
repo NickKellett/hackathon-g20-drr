@@ -7,7 +7,7 @@ Siyenzile isihlahla sokwenza izinqumo esikusiza ukuthi ulungiselele, uphendule, 
 - [Umuthi Wokuhlola Izinqumo Zamanzi Okwenza Umphakathi](/4/flood_decision_trees_community_led.drawio.png):
  ![Umuthi Wokuhlola Izinqumo Zamanzi Okwenza Umphakathi](/4/flood_decision_trees_community_led.drawio.png)
  
-Ungafunda ukuthi ungayivikela kanjani imiphakathi yakho encazelweni yokuphazamiseka kwamanzi: [umhlahlandlela wezikhukhula](/zu/guides/flood)
+Ungafunda ukuthi ungayivikela kanjani imiphakathi yakho encazelweni yokuphazamiseka kwamanzi: [umhlahlandlela wezikhukhula](/zu/guides/flood-community).
 
 
 ## Learn more
