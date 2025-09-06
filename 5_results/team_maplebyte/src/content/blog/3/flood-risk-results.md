@@ -102,7 +102,7 @@ Steps include:
  
 ## Potential Flood Risk Areas
 - Below we have manually added callouts to make it easier to spot areas that could be potential flood risks under current and future settlement growth scenarios.
- ![Flood Risk Map with callout sections](/flood_risk_map_with_callout_areas.webp)
+ ![Flood Risk Map with callout sections](/flood_risk_map_with_callout_areas_compressed.webp)
 
 ## Related reading
 - View the [Flood Risk Hackathon Activity Log](/posts/3/flood-risk-log).
