@@ -39,6 +39,20 @@ export default defineConfig({
 						{ label: 'Flood Guide', slug: 'guides/flood-community' },
 					],
 				},
+				{
+					label: 'About',
+					items: [				
+						{ label: 'About', slug: 'about/about' },		
+					]
+				},	
+				{
+					label: "Related Websites",
+					items: [
+						{ label: 'Team MapleByte G20 DRR Hackathon Blog', link: 'https://g20hack-maplebyte.climatechange.ca' },
+						{ label: 'South Africa government floods response', link: 'https://www.gov.za/floods' },
+						//{ label: 'Deploy Solutions Website', link: 'https://www.deploy.solutions' },
+					],
+				}
 			],
 		}),
 	],

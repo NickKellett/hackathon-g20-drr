@@ -50,12 +50,13 @@ export default defineConfig({
 				{
 					label: 'About',
 					items: [				
-						//{ label: 'Deploy Software Solutions', slug: 'about/deploy_software_solutions' },		
+						{ label: 'About', slug: 'about/about' },		
 					]
 				},	
 				{
 					label: "Related Websites",
 					items: [
+						{ label: 'Team MapleByte G20 DRR Hackathon Blog', link: 'https://g20hack-maplebyte.climatechange.ca' },
 						{ label: 'South Africa government floods response', link: 'https://www.gov.za/floods' },
 						//{ label: 'Deploy Solutions Website', link: 'https://www.deploy.solutions' },
 					],

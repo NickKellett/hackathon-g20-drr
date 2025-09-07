@@ -5,10 +5,6 @@ description: The Intact Centre on Climate Adaptation (Intact Centre) is an appli
 
 "The Intact Centre on Climate Adaptation (Intact Centre) is an applied research institute at the University of Waterloo. Since its founding in 2015 with a gift from Intact Financial Corporation, Canada’s largest property and casualty insurer, the Intact Centre has developed numerous guidelines to mitigate extreme weather risk. It collaborates with residents, communities, governments, and businesses to identify and reduce risks associated with climate change, such as flooding, wildfire, and extreme heat. The Intact Centre is frequently quoted in the media, consistently emphasizing the urgent need to address the impacts of climate change and extreme weather." (Source: Intact Centre website)
 
-YOUR DESCRIPTION
-
-        
-	
 ## Transitioning from Rhetoric to Action: Integrating Physical Climate Change and Extreme Weather Risk into Institutional Investing (July 2023)
 
 	

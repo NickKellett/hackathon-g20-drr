@@ -5,8 +5,6 @@ description: Deploy Solutions connects Earth observation data with the needs of 
 
 Deploy Solutions connects Earth observation data with the needs of organisations and businesses by providing innovative Space Apps — software applications which use data from space. Our main focus is on climate change-related use cases, in particular for physical risk and resilience. Since 2019 we've been gathering unique insights into the ways software can help prepare individuals and communities deal with climate change-related problems, impacts and natural disasters. We are a member of Space Canada.
 
-YOUR DESCRIPTION
-
 ## Our Vision
 
 Climate Change is real, caused by humans, occurring now, and increasing in scope and threat. Everyone needs to work together to reduce its impacts. Our vision is to help build better climate resilience, using software tools and data from Earth and Space.
