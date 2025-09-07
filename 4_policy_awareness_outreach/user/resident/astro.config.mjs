@@ -33,11 +33,8 @@ export default defineConfig({
 					autogenerate: { directory: 'floods' },
 				},
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Flood Guide', slug: 'guides/flood-community' },
-					],
+					label: 'Flood Guide',
+					autogenerate: { directory: 'guides' }
 				},
 				{
 					label: 'About',
