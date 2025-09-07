@@ -3,10 +3,6 @@ title: Risk Reduction Action
 description: YOUR DESCRIPTION
 ---
 
-YOUR DESCRIPTION
-
-YOUR DESCRIPTION
-
 - Use Functional Groups: Classify actions into Preparedness, Response, Recovery, Adaptation, and Mitigation without creating separate elements.
 - Tie Actions to Targets: Each action should explicitly state which elements it affects (Exposure, Vulnerability, Impact).
 - Quantify Impact: Include attributes for Effectiveness or Risk Reduction Scores to model changes dynamically.

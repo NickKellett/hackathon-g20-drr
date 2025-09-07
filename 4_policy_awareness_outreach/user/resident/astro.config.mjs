@@ -19,6 +19,9 @@ export default defineConfig({
 					lang: 'zu',
 				},
 			},
+			components: {
+				Footer: '/src/components/Footer.astro',
+			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
 				{

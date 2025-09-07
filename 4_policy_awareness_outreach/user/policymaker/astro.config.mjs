@@ -16,6 +16,7 @@ export default defineConfig({
 			},
 			components: {
 				Head: "/src/components/docs/Head.astro",
+				Footer: '/src/components/docs/Footer.astro',
 			},
 			sidebar: [
 				{

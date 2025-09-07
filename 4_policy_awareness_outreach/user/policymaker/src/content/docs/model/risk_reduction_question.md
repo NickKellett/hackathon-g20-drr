@@ -7,7 +7,8 @@ A question is tied to a specific Risk Reduction Action and makes it possible to 
 
 Include contextual information (e.g., the hazard, structure, or impact being addressed).	Allow multiple possible responses (e.g., not started, partially complete, fully complete). Allow scoring including against CRM model
 
-Example Question: *"Have you elevated your building to ensure clearance during a 1:200 year flood?"* Effect of Answers:
+Example Question: *"Have you elevated your building to ensure clearance during a 1:200 year flood?"* 
+Effect of Answers:
 
 - Not Started: No change to Exposure or Vulnerability.
 - Partially Complete: Partial reduction in Vulnerability.

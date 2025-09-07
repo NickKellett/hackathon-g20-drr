@@ -23,7 +23,7 @@ Due to hackathon time constraints we have only considered two main groups of sta
 - These are a work in progress and reflect a high-level understanding of potential relevant policy actions
 - We note that certain government-led policies that could apply - such as those relating to mandatory evacuations and resettlements - are controversial and may well be resisted by informal settlement community leaders and members.
 - We are not advocating for or against any particular policy steps or approach, simply indicating via these decision trees how policy actions could apply to the settlement detection, growth, and flood risk prediction models we produced.
-- [Government-led Decision Tree](/4/flood_decision_trees_government_led.drawio.png) :
+- Government-led Decision Tree:
  ![Government-led Decision Tree](/4/flood_decision_trees_government_led.drawio.png)
 - [Community-led Decision Tree](/4/flood_decision_trees_community_led.drawio.png):
  ![Community-led Decision Tree](/4/flood_decision_trees_community_led.drawio.png)
