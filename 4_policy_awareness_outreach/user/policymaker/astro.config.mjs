@@ -57,7 +57,8 @@ export default defineConfig({
 					label: "Related Websites",
 					items: [
 						{ label: 'Team MapleByte G20 DRR Hackathon Blog', link: 'https://g20hack-maplebyte.climatechange.ca' },
-						{ label: 'South Africa government floods response', link: 'https://www.gov.za/floods' },
+						{ label: 'Team MapleByte GitHub Repo', link: 'https://github.com/NickKellett/hackathon-g20-drr' },
+						{ label: 'G20 DRR Hackathon Microsite for Informal Settlement Community Leaders', link: 'https://g20hack-user-resident.climatechange.ca' },
 						//{ label: 'Deploy Solutions Website', link: 'https://www.deploy.solutions' },
 					],
 				}
