@@ -20,13 +20,6 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Quickstart', slug: 'guides/flood-government' },
-					],
-				},
-				{
 					label: 'Concepts',
 					items: [
 						{ label: 'Overview', slug: 'model/overview' },						
@@ -46,7 +39,11 @@ export default defineConfig({
 				{
 					label: 'Floods',
 					autogenerate: { directory: 'floods' },
-				},	
+				},
+				{
+					label: 'Flood Guide',
+					autogenerate: { directory: 'guides' }
+				},
 				{
 					label: 'About',
 					items: [				

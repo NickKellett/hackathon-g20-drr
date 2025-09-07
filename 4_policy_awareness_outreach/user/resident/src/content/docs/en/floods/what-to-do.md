@@ -9,7 +9,7 @@ We've created a decision tree that helps you prepare for, respond to, and recove
  ![Community-led Flood Decision Tree](/4/flood_decision_trees_community_led.drawio.png)
  
  
- You can learn more about each step in the [flood guide](/en/guides/flood-community) or by selecting a topic below.
+ You can learn more about each step in the flood guide or by selecting a topic below.
 
 - [Create trust and solidarity among the community](/en/guides/create-trust-and-solidarity-among-the-community)
 - [Organize community groups](/en/guides/organize-community-groups)
