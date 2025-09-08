@@ -33,7 +33,7 @@ export default defineConfig({
 					autogenerate: { directory: 'floods' },
 				},
 				{
-					label: 'Flood Guide',
+					label: 'Flood Adaptation & Resilience Guide',
 					autogenerate: { directory: 'guides' }
 				},
 				{

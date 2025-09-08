@@ -8,8 +8,8 @@ We've created a decision tree that helps you prepare for, respond to, and recove
 - [Government-led Flood Decision Tree](/4/flood_decision_trees_government_led.drawio.png):
  ![Government-led Flood Decision Tree](/4/flood_decision_trees_government_led.drawio.png)
  
- You can learn more about each step in the flood guide or by selecting a topic below.
- 
+ You can learn more about each step in the Flood Adaptation & Resilience guide or by selecting a topic below.
+
 - [Is the flood risk imminent?](/guides/is-the-flood-risk-imminent)  
 - [Identify areas at risk](/guides/identify-areas-at-risk)  
 - [Can an early warning system be established?](/guides/can-an-early-warning-system-be-established)  
