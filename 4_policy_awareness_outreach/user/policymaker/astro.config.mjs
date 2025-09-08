@@ -14,9 +14,14 @@ export default defineConfig({
 			social: {
 				github: 'https://github.com/NickKellett/hackathon-g20-drr',
 			},
+			customCss: [
+				'/src/styles/global.css',
+				// add other custom CSS files here if needed
+			],
 			components: {
-				Head: "/src/components/docs/Head.astro",
-				Footer: '/src/components/docs/Footer.astro',
+				Head: "/src/components/Head.astro",
+				MarkdownContent: '/src/components/MarkdownContent.astro',
+				Footer: '/src/components/Footer.astro',
 			},
 			sidebar: [
 				{

@@ -19,7 +19,12 @@ export default defineConfig({
 					lang: 'zu',
 				},
 			},
+			customCss: [
+				'/src/styles/global.css',
+				// add other custom CSS files here if needed
+			],
 			components: {
+				MarkdownContent: '/src/components/MarkdownContent.astro',
 				Footer: '/src/components/Footer.astro',
 			},
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
