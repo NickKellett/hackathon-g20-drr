@@ -15,4 +15,4 @@ This is important because waterborne disease outbreaks and power outages are com
 - Coordinate with disaster management agencies to prioritize service restoration.  
 
 ### Example
-In Durban, South Africa, the municipality upgraded electrical substations in flood-prone areas by raising them above projected flood levels. This reduced service interruptions and improved community resilience.
+A municipality upgraded electrical substations in flood-prone areas by raising them above projected flood levels. This reduced service interruptions and improved community resilience.
