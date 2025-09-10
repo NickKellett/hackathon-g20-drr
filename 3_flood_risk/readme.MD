@@ -2,7 +2,6 @@
 This folder contains the core modules and scripts for flood risk analysis. The workflow is organized into several subfolders, each responsible for a specific stage in the analysis pipeline.
 
 ## Background. 
-
 This notebook has been created for G20 DRR Hackathon for Team MapleByte (Canada). This works towards the 'Flood Risk' portion of the challenge.  
 Project/team site: [g20hack-maplebyte.climatechange.ca](https://g20hack-maplebyte.climatechange.ca/)
 *** please note these outputs are simulations and do not represent real results - but instead represent an approach that could be explored to simulate/estimate flooding extents. 
@@ -64,3 +63,18 @@ To run this notebook, you will need:
 
 ---
 For more details on each module, see the README files (if available) in the respective subfolders.
+
+## License
+Copyright 2025 Team MapleByte 
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

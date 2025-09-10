@@ -19,3 +19,18 @@ The code and content for the websites can be found inside the relevant subfolder
 You can view a live version of the websites here:
 1. ["Community Leaders" live microsite](https://g20hack-user-resident.climatechange.ca/). We partially translated the content into isiZulu in recognition that in our use case the Durban population speaks English and isiZulu. You can toggle between the languages on the top righthand corner.
 2. ["Policy Makers" live microsite](https://g20hack-user-policy.climatechange.ca/)
+
+## License
+Copyright 2025 Team MapleByte 
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.

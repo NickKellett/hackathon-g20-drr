@@ -1,15 +1,12 @@
 # Workstream 5_Team Blog
-## Background. 
+
+## Background
 This blog has been created to track the activities and results of Team MapleByte (Canada) in the G20 DRR Hackathon. You can view the live version at [g20hack-maplebyte.climatechange.ca](https://g20hack-maplebyte.climatechange.ca/)
 
 ## Vitesse theme for Astro
 A minimal, SEO-friendly portfolio and blog theme for Astro, supports Vue and UnoCSS.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/0624323a-339f-48da-8b28-03037d664c40/deploy-status)](https://app.netlify.com/sites/astro-theme-vitesse/deploys)
-
-## Preview
-
-![Preview Image](./public/preview.jpg)
 
 ## Features
 
@@ -109,6 +106,21 @@ Like this:
 }
 ```
 
-## License
 
+## License (Website content and structure)
+Copyright 2025 Team MapleByte 
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
+## License (Astro-Vitesse)
 [MIT License](./LICENSE) © 2024 [Kieran Wang](https://github.com/kieranwv/)
