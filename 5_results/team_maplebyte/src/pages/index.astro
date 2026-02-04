@@ -5,6 +5,16 @@ import siteConfig from '@/site-config'
 
 <BaseLayout description={siteConfig.description}>
   <article class="prose">
+    <style>
+      /* Force h2 to match .prose h2 styles from prose.css */
+      h2 {
+        font-weight: 700;
+        font-size: 1.5em;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        line-height: 1.3333333;
+      }
+    </style>
     <h1 class="text-title">Team MapleByte for G20 Disaster Risk Reduction (DRR) Hackathon 2025</h1>
     <img style="margin-left: -150px;margin-top: -145px;" width="120" height="120" src="/G20_DRR_logo_compressed.webp" alt="G20 DRR Logo (unofficial)" />
     <p>
@@ -18,7 +28,7 @@ import siteConfig from '@/site-config'
     <h2>Team MapleByte, representing Canada</h2>
     <img style="float: right; margin-left: 10px; margin-top: 60px; margin-bottom: 8px;" width="150" height="150" src="/team_maplebyte_logo_compressed.webp" alt="Team MapleByte Logo" />
     <p>This is our team blog providing an overview of our hackathon results, and a log/deep dive of the issues and challenges we encountered. Our members:</p>
-    <ul>
+    <ul style="list-style-type: disc; margin-left: 1.5em;">
       <li>Benedicta Antwi Boasiako</li>
       <li>Heather McGrath</li>
       <li><a href="https://www.linkedin.com/in/ms888ekb" target="_blank" title="LinkedIn Profile of Mikhail Sokolov">Mikhail Sokolov</a></li>
@@ -33,7 +43,7 @@ import siteConfig from '@/site-config'
     <p>We could therefore compare our research efforts and findings against this real world example, in the hopes that future refinements of our results might one day help people living in informal settlements and affected by flooding - like those near Quarry Road.</p>
     <h2>Workstreams</h2>
     <p>We divided the work up into parallel streams of activity, each led by a team member:</p>
-    <ul>
+    <ul style="list-style-type: disc; margin-left: 1.5em;">
       <li><a href="/blog/0">0: Overall Approach &amp; Results</a></li>
       <li><a href="/blog/1">1: Settlement Detection (Mikhail)</a></li>
       <li><a href="/blog/2">2: Settlement Growth (Benedicta)</a></li>
@@ -65,7 +75,7 @@ import siteConfig from '@/site-config'
     </p> -->
     <hr class="hr-line" />    
     <h2>With Thanks & Recognition</h2>  
-    <ul>
+    <ul style="list-style-type: disc; margin-left: 1.5em;">
       <li>The G20 DRR Hackathon organizers and volunteers for their tireless efforts to champion, promote, organize and run the hackathon.</li>
       <li>Digital Earth Africa for hosting the data, sandbox tools, and providing training and support on their platform</li>
       <li>The Science Policy Branch, Science and Research Sector of Innovation, Science and Economic Development Canada (ISED), and Public Safety Canada and Natural Resources Canada (NRCan) for providing team formation assistance and logistical support.</li>
